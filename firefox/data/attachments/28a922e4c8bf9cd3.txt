@@ -1,0 +1,13 @@
+2026-08-12 05:34:48 | INFO     | Conftest                       | ======================================================================
+2026-08-12 05:34:48 | INFO     | Conftest                       | TEST START -> test_login_data_driven[None-secret_sauce-failure]
+2026-08-12 05:34:48 | INFO     | Conftest                       | ======================================================================
+2026-08-12 05:34:48 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True
+2026-08-12 05:34:50 | INFO     | DriverFactory                  | BROWSER LAUNCH -> FIREFOX driver initialized
+2026-08-12 05:34:50 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-08-12 05:34:50 | INFO     | LoginPage                      | TYPE -> 'Username field' <- ''
+2026-08-12 05:34:50 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-08-12 05:34:51 | INFO     | LoginPage                      | CLICK -> Login button
+2026-08-12 05:34:51 | INFO     | LoginPage                      | ASSERTION [PASSED] -> Expected login failure for user 'None'
+2026-08-12 05:34:51 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-08-12 05:34:51 | INFO     | Conftest                       | TEST END   -> test_login_data_driven[None-secret_sauce-failure] | STATUS: PASSED
+2026-08-12 05:34:51 | INFO     | Conftest                       | ----------------------------------------------------------------------

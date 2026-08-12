@@ -1,0 +1,1 @@
+[{"values":["chrome"],"name":"Browser"},{"values":["qa"],"name":"Environment"},{"values":["https://www.saucedemo.com/"],"name":"Base_URL"},{"values":["True"],"name":"Headless"}]
