@@ -1,0 +1,59 @@
+# ==========================================================
+# QA Automation Framework - .gitignore
+# ==========================================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.Python
+build/
+dist/
+
+# Virtual environments
+venv/
+venv*/
+.venv/
+env/
+ENV/
+*/site-packages/
+
+# PyTest
+.pytest_cache/
+.cache/
+
+# Reports & Logs (keep folder structure, ignore generated content)
+reports/allure-results/*
+!reports/allure-results/.gitkeep
+reports/allure-report/*
+!reports/allure-report/.gitkeep
+reports/html-report/*
+!reports/html-report/.gitkeep
+logs/*.log
+!logs/.gitkeep
+
+# Screenshots (generated at runtime)
+screenshots/*.png
+!screenshots/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Excel temp lock files
+~$*.xlsx
+
+# Coverage
+.coverage
+htmlcov/

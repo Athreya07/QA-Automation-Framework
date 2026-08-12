@@ -1,0 +1,26 @@
+# ==========================================================
+# QA Automation Framework - Python Dependencies
+# ==========================================================
+
+# Core testing
+selenium==4.24.0
+pytest==8.3.2
+pytest-html==4.1.1
+pytest-rerunfailures==14.0
+pytest-xdist==3.6.1
+pytest-ordering==0.6
+
+# Driver management
+webdriver-manager==4.0.2
+
+# Reporting
+allure-pytest==2.13.5
+
+# Data handling
+openpyxl==3.1.5
+pandas==2.2.2
+Faker==26.3.0
+
+# Config / utils
+configparser==7.1.0
+python-dotenv==1.0.1
