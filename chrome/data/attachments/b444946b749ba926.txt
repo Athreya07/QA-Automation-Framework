@@ -1,0 +1,66 @@
+2026-08-15 02:47:26 | INFO     | Conftest                       | ======================================================================
+2026-08-15 02:47:26 | INFO     | Conftest                       | TEST START -> test_cart_persists_across_navigation
+2026-08-15 02:47:26 | INFO     | Conftest                       | ======================================================================
+2026-08-15 02:47:26 | INFO     | DriverFactory                  | Initializing 'chrome' driver | headless=True
+2026-08-15 02:47:27 | INFO     | DriverFactory                  | BROWSER LAUNCH -> CHROME driver initialized
+2026-08-15 02:47:27 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-08-15 02:47:27 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-08-15 02:47:27 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-08-15 02:47:28 | INFO     | LoginPage                      | CLICK -> Login button
+2026-08-15 02:47:28 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Backpack
+2026-08-15 02:47:28 | INFO     | InventoryPage                  | CLICK -> Cart icon
+2026-08-15 02:47:49 | ERROR    | WaitUtils                      | Timeout waiting for element to be CLICKABLE: ('id', 'continue-shopping')
+2026-08-15 02:47:49 | ERROR    | CartPage                       | EXCEPTION -> Failed to click element: Continue Shopping button | TimeoutException: Message: 
+Stacktrace:
+#0 0x557594ed536a <unknown>
+#1 0x557594848f49 <unknown>
+#2 0x55759489e7e2 <unknown>
+#3 0x55759489ea31 <unknown>
+#4 0x5575948e9ed4 <unknown>
+#5 0x5575948e70c3 <unknown>
+#6 0x557594891c92 <unknown>
+#7 0x557594892b11 <unknown>
+#8 0x557594e9a8d0 <unknown>
+#9 0x557594e98f3a <unknown>
+#10 0x557594e839b5 <unknown>
+#11 0x557594e99c0a <unknown>
+#12 0x557594e6b740 <unknown>
+#13 0x557594ec09a8 <unknown>
+#14 0x557594ec0b45 <unknown>
+#15 0x557594ed3f1e <unknown>
+#16 0x7f859ee9cb84 <unknown>
+#17 0x7f859ef29d6c <unknown>
+Traceback (most recent call last):
+  File "/home/runner/work/QA-Automation-Framework/QA-Automation-Framework/pages/base_page.py", line 49, in click
+    element = self.wait.wait_for_clickable(locator)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/QA-Automation-Framework/QA-Automation-Framework/utilities/wait_utils.py", line 42, in wait_for_clickable
+    return self.wait.until(EC.element_to_be_clickable(locator))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/selenium/webdriver/support/wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+#0 0x557594ed536a <unknown>
+#1 0x557594848f49 <unknown>
+#2 0x55759489e7e2 <unknown>
+#3 0x55759489ea31 <unknown>
+#4 0x5575948e9ed4 <unknown>
+#5 0x5575948e70c3 <unknown>
+#6 0x557594891c92 <unknown>
+#7 0x557594892b11 <unknown>
+#8 0x557594e9a8d0 <unknown>
+#9 0x557594e98f3a <unknown>
+#10 0x557594e839b5 <unknown>
+#11 0x557594e99c0a <unknown>
+#12 0x557594e6b740 <unknown>
+#13 0x557594ec09a8 <unknown>
+#14 0x557594ec0b45 <unknown>
+#15 0x557594ed3f1e <unknown>
+#16 0x7f859ee9cb84 <unknown>
+#17 0x7f859ef29d6c <unknown>
+
+2026-08-15 02:47:49 | INFO     | ScreenshotUtils                | Screenshot captured: /home/runner/work/QA-Automation-Framework/QA-Automation-Framework/screenshots/test_cart_persists_across_navigation_2026-08-15_02-47-49.png
+2026-08-15 02:47:49 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-08-15 02:47:49 | INFO     | Conftest                       | TEST END   -> test_cart_persists_across_navigation | STATUS: FAILED
+2026-08-15 02:47:49 | INFO     | Conftest                       | ----------------------------------------------------------------------
