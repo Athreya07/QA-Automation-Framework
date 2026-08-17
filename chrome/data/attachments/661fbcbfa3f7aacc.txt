@@ -1,0 +1,13 @@
+2026-08-17 03:00:05 | INFO     | Conftest                       | ======================================================================
+2026-08-17 03:00:05 | INFO     | Conftest                       | TEST START -> test_invalid_login_unknown_user
+2026-08-17 03:00:05 | INFO     | Conftest                       | ======================================================================
+2026-08-17 03:00:05 | INFO     | DriverFactory                  | Initializing 'chrome' driver | headless=True
+2026-08-17 03:00:06 | INFO     | DriverFactory                  | BROWSER LAUNCH -> CHROME driver initialized
+2026-08-17 03:00:06 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-08-17 03:00:06 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'nonexistent_user_007'
+2026-08-17 03:00:06 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-08-17 03:00:06 | INFO     | LoginPage                      | CLICK -> Login button
+2026-08-17 03:00:06 | INFO     | LoginPage                      | ASSERTION [PASSED] -> Error message should be displayed for unknown username
+2026-08-17 03:00:06 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-08-17 03:00:06 | INFO     | Conftest                       | TEST END   -> test_invalid_login_unknown_user | STATUS: PASSED
+2026-08-17 03:00:06 | INFO     | Conftest                       | ----------------------------------------------------------------------

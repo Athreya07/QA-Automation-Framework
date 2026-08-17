@@ -1,0 +1,34 @@
+2026-08-17 03:00:55 | INFO     | Conftest                       | ======================================================================
+2026-08-17 03:00:55 | INFO     | Conftest                       | TEST START -> test_session_invalid_after_logout
+2026-08-17 03:00:55 | INFO     | Conftest                       | ======================================================================
+2026-08-17 03:00:55 | INFO     | DriverFactory                  | Initializing 'chrome' driver | headless=True
+2026-08-17 03:00:55 | INFO     | DriverFactory                  | BROWSER LAUNCH -> CHROME driver initialized
+2026-08-17 03:00:55 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-08-17 03:00:56 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-08-17 03:00:56 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-08-17 03:00:56 | INFO     | LoginPage                      | CLICK -> Login button
+2026-08-17 03:00:56 | INFO     | InventoryPage                  | CLICK -> Burger menu button
+2026-08-17 03:00:57 | INFO     | InventoryPage                  | CLICK -> Logout link
+2026-08-17 03:00:57 | INFO     | InventoryPage                  | Navigating to URL: https://www.saucedemo.com/inventory.html
+2026-08-17 03:01:07 | INFO     | InventoryPage                  | ASSERTION [FAILED] -> Direct access to inventory.html after logout should be blocked
+2026-08-17 03:01:07 | INFO     | ScreenshotUtils                | Screenshot captured: /home/runner/work/QA-Automation-Framework/QA-Automation-Framework/screenshots/test_session_invalid_after_logout_2026-08-17_03-01-07.png
+2026-08-17 03:01:07 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-08-17 03:01:07 | INFO     | Conftest                       | TEST END   -> test_session_invalid_after_logout | STATUS: FAILED
+2026-08-17 03:01:07 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-08-17 03:01:09 | INFO     | Conftest                       | ======================================================================
+2026-08-17 03:01:09 | INFO     | Conftest                       | TEST START -> test_session_invalid_after_logout
+2026-08-17 03:01:09 | INFO     | Conftest                       | ======================================================================
+2026-08-17 03:01:09 | INFO     | DriverFactory                  | Initializing 'chrome' driver | headless=True
+2026-08-17 03:01:09 | INFO     | DriverFactory                  | BROWSER LAUNCH -> CHROME driver initialized
+2026-08-17 03:01:09 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-08-17 03:01:10 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-08-17 03:01:10 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-08-17 03:01:10 | INFO     | LoginPage                      | CLICK -> Login button
+2026-08-17 03:01:10 | INFO     | InventoryPage                  | CLICK -> Burger menu button
+2026-08-17 03:01:11 | INFO     | InventoryPage                  | CLICK -> Logout link
+2026-08-17 03:01:11 | INFO     | InventoryPage                  | Navigating to URL: https://www.saucedemo.com/inventory.html
+2026-08-17 03:01:21 | INFO     | InventoryPage                  | ASSERTION [FAILED] -> Direct access to inventory.html after logout should be blocked
+2026-08-17 03:01:21 | INFO     | ScreenshotUtils                | Screenshot captured: /home/runner/work/QA-Automation-Framework/QA-Automation-Framework/screenshots/test_session_invalid_after_logout_2026-08-17_03-01-21.png
+2026-08-17 03:01:21 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-08-17 03:01:21 | INFO     | Conftest                       | TEST END   -> test_session_invalid_after_logout | STATUS: FAILED
+2026-08-17 03:01:21 | INFO     | Conftest                       | ----------------------------------------------------------------------

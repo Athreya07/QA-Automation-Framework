@@ -1,2 +1,0 @@
-INFO     WDM:logger.py:11 ====== WebDriver manager ======
-INFO     WDM:logger.py:11 Get LATEST geckodriver version for 153.0 firefox
