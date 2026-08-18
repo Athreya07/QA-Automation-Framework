@@ -1,0 +1,17 @@
+2026-08-18 02:51:42 | INFO     | Conftest                       | ======================================================================
+2026-08-18 02:51:42 | INFO     | Conftest                       | TEST START -> test_add_multiple_products_to_cart
+2026-08-18 02:51:42 | INFO     | Conftest                       | ======================================================================
+2026-08-18 02:51:42 | INFO     | DriverFactory                  | Initializing 'chrome' driver | headless=True
+2026-08-18 02:51:42 | INFO     | DriverFactory                  | BROWSER LAUNCH -> CHROME driver initialized
+2026-08-18 02:51:42 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-08-18 02:51:43 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-08-18 02:51:43 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-08-18 02:51:43 | INFO     | LoginPage                      | CLICK -> Login button
+2026-08-18 02:51:43 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Backpack
+2026-08-18 02:51:43 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Bike Light
+2026-08-18 02:51:43 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Bolt T-Shirt
+2026-08-18 02:51:43 | INFO     | InventoryPage                  | GET TEXT -> 'Cart badge' = '3'
+2026-08-18 02:51:43 | INFO     | InventoryPage                  | CLICK -> Cart icon
+2026-08-18 02:51:43 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-08-18 02:51:43 | INFO     | Conftest                       | TEST END   -> test_add_multiple_products_to_cart | STATUS: PASSED
+2026-08-18 02:51:43 | INFO     | Conftest                       | ----------------------------------------------------------------------

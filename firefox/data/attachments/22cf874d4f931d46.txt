@@ -1,0 +1,14 @@
+2026-08-18 02:52:46 | INFO     | Conftest                       | ======================================================================
+2026-08-18 02:52:46 | INFO     | Conftest                       | TEST START -> test_locked_out_user
+2026-08-18 02:52:46 | INFO     | Conftest                       | ======================================================================
+2026-08-18 02:52:46 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True
+2026-08-18 02:52:48 | INFO     | DriverFactory                  | BROWSER LAUNCH -> FIREFOX driver initialized
+2026-08-18 02:52:48 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-08-18 02:52:49 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'locked_out_user'
+2026-08-18 02:52:49 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-08-18 02:52:49 | INFO     | LoginPage                      | CLICK -> Login button
+2026-08-18 02:52:49 | INFO     | LoginPage                      | ASSERTION [PASSED] -> Error message should be displayed for locked out user
+2026-08-18 02:52:49 | INFO     | LoginPage                      | GET TEXT -> 'Login error message' = 'Epic sadface: Sorry, this user has been locked out.'
+2026-08-18 02:52:49 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-08-18 02:52:49 | INFO     | Conftest                       | TEST END   -> test_locked_out_user | STATUS: PASSED
+2026-08-18 02:52:49 | INFO     | Conftest                       | ----------------------------------------------------------------------
