@@ -1,0 +1,13 @@
+2026-08-20 02:54:05 | INFO     | Conftest                       | ======================================================================
+2026-08-20 02:54:05 | INFO     | Conftest                       | TEST START -> test_valid_login
+2026-08-20 02:54:05 | INFO     | Conftest                       | ======================================================================
+2026-08-20 02:54:05 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True
+2026-08-20 02:54:07 | INFO     | DriverFactory                  | BROWSER LAUNCH -> FIREFOX driver initialized
+2026-08-20 02:54:07 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-08-20 02:54:07 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-08-20 02:54:07 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-08-20 02:54:07 | INFO     | LoginPage                      | CLICK -> Login button
+2026-08-20 02:54:07 | INFO     | LoginPage                      | ASSERTION [PASSED] -> User should be redirected to inventory.html after valid login
+2026-08-20 02:54:07 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-08-20 02:54:07 | INFO     | Conftest                       | TEST END   -> test_valid_login | STATUS: PASSED
+2026-08-20 02:54:07 | INFO     | Conftest                       | ----------------------------------------------------------------------

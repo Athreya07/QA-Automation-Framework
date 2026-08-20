@@ -1,0 +1,19 @@
+2026-08-20 02:54:41 | INFO     | Conftest                       | ======================================================================
+2026-08-20 02:54:41 | INFO     | Conftest                       | TEST START -> test_missing_postal_code
+2026-08-20 02:54:41 | INFO     | Conftest                       | ======================================================================
+2026-08-20 02:54:41 | INFO     | DriverFactory                  | Initializing 'chrome' driver | headless=True
+2026-08-20 02:54:42 | INFO     | DriverFactory                  | BROWSER LAUNCH -> CHROME driver initialized
+2026-08-20 02:54:42 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-08-20 02:54:42 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-08-20 02:54:42 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-08-20 02:54:42 | INFO     | LoginPage                      | CLICK -> Login button
+2026-08-20 02:54:42 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Backpack
+2026-08-20 02:54:42 | INFO     | InventoryPage                  | CLICK -> Cart icon
+2026-08-20 02:54:42 | INFO     | CartPage                       | CLICK -> Checkout button
+2026-08-20 02:54:42 | INFO     | CheckoutPage                   | TYPE -> 'First name field' <- 'John'
+2026-08-20 02:54:43 | INFO     | CheckoutPage                   | TYPE -> 'Last name field' <- 'Doe'
+2026-08-20 02:54:43 | INFO     | CheckoutPage                   | CLICK -> Continue button
+2026-08-20 02:54:43 | INFO     | CheckoutPage                   | GET TEXT -> 'Checkout error message' = 'Error: Postal Code is required'
+2026-08-20 02:54:43 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-08-20 02:54:43 | INFO     | Conftest                       | TEST END   -> test_missing_postal_code | STATUS: PASSED
+2026-08-20 02:54:43 | INFO     | Conftest                       | ----------------------------------------------------------------------

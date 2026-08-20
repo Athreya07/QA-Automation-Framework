@@ -1,0 +1,17 @@
+2026-08-20 02:53:12 | INFO     | Conftest                       | ======================================================================
+2026-08-20 02:53:12 | INFO     | Conftest                       | TEST START -> test_cart_badge_updates_dynamically
+2026-08-20 02:53:12 | INFO     | Conftest                       | ======================================================================
+2026-08-20 02:53:12 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True
+2026-08-20 02:53:14 | INFO     | DriverFactory                  | BROWSER LAUNCH -> FIREFOX driver initialized
+2026-08-20 02:53:14 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-08-20 02:53:14 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-08-20 02:53:14 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-08-20 02:53:14 | INFO     | LoginPage                      | CLICK -> Login button
+2026-08-20 02:53:15 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Backpack
+2026-08-20 02:53:15 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Bike Light
+2026-08-20 02:53:15 | INFO     | InventoryPage                  | GET TEXT -> 'Cart badge' = '2'
+2026-08-20 02:53:15 | INFO     | InventoryPage                  | Removed product from cart: Sauce Labs Backpack
+2026-08-20 02:53:15 | INFO     | InventoryPage                  | GET TEXT -> 'Cart badge' = '1'
+2026-08-20 02:53:15 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-08-20 02:53:15 | INFO     | Conftest                       | TEST END   -> test_cart_badge_updates_dynamically | STATUS: PASSED
+2026-08-20 02:53:15 | INFO     | Conftest                       | ----------------------------------------------------------------------
