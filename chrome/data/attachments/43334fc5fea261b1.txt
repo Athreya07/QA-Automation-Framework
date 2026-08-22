@@ -1,0 +1,34 @@
+2026-08-22 02:50:05 | INFO     | Conftest                       | ======================================================================
+2026-08-22 02:50:05 | INFO     | Conftest                       | TEST START -> test_add_multiple_products_to_cart
+2026-08-22 02:50:05 | INFO     | Conftest                       | ======================================================================
+2026-08-22 02:50:05 | INFO     | DriverFactory                  | Initializing 'chrome' driver | headless=True
+2026-08-22 02:50:06 | INFO     | DriverFactory                  | BROWSER LAUNCH -> CHROME driver initialized
+2026-08-22 02:50:06 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-08-22 02:50:06 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-08-22 02:50:06 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-08-22 02:50:07 | INFO     | LoginPage                      | CLICK -> Login button
+2026-08-22 02:50:07 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Backpack
+2026-08-22 02:50:07 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Bike Light
+2026-08-22 02:50:07 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Bolt T-Shirt
+2026-08-22 02:50:07 | INFO     | InventoryPage                  | GET TEXT -> 'Cart badge' = '1'
+2026-08-22 02:50:07 | INFO     | ScreenshotUtils                | Screenshot captured: /home/runner/work/QA-Automation-Framework/QA-Automation-Framework/screenshots/test_add_multiple_products_to_cart_2026-08-22_02-50-07.png
+2026-08-22 02:50:07 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-08-22 02:50:07 | INFO     | Conftest                       | TEST END   -> test_add_multiple_products_to_cart | STATUS: FAILED
+2026-08-22 02:50:07 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-08-22 02:50:09 | INFO     | Conftest                       | ======================================================================
+2026-08-22 02:50:09 | INFO     | Conftest                       | TEST START -> test_add_multiple_products_to_cart
+2026-08-22 02:50:09 | INFO     | Conftest                       | ======================================================================
+2026-08-22 02:50:09 | INFO     | DriverFactory                  | Initializing 'chrome' driver | headless=True
+2026-08-22 02:50:09 | INFO     | DriverFactory                  | BROWSER LAUNCH -> CHROME driver initialized
+2026-08-22 02:50:09 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-08-22 02:50:10 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-08-22 02:50:10 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-08-22 02:50:10 | INFO     | LoginPage                      | CLICK -> Login button
+2026-08-22 02:50:10 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Backpack
+2026-08-22 02:50:10 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Bike Light
+2026-08-22 02:50:10 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Bolt T-Shirt
+2026-08-22 02:50:10 | INFO     | InventoryPage                  | GET TEXT -> 'Cart badge' = '1'
+2026-08-22 02:50:10 | INFO     | ScreenshotUtils                | Screenshot captured: /home/runner/work/QA-Automation-Framework/QA-Automation-Framework/screenshots/test_add_multiple_products_to_cart_2026-08-22_02-50-10.png
+2026-08-22 02:50:10 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-08-22 02:50:10 | INFO     | Conftest                       | TEST END   -> test_add_multiple_products_to_cart | STATUS: FAILED
+2026-08-22 02:50:10 | INFO     | Conftest                       | ----------------------------------------------------------------------

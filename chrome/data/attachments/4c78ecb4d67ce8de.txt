@@ -1,0 +1,32 @@
+2026-08-22 02:50:11 | INFO     | Conftest                       | ======================================================================
+2026-08-22 02:50:11 | INFO     | Conftest                       | TEST START -> test_cart_badge_updates_dynamically
+2026-08-22 02:50:11 | INFO     | Conftest                       | ======================================================================
+2026-08-22 02:50:11 | INFO     | DriverFactory                  | Initializing 'chrome' driver | headless=True
+2026-08-22 02:50:11 | INFO     | DriverFactory                  | BROWSER LAUNCH -> CHROME driver initialized
+2026-08-22 02:50:11 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-08-22 02:50:11 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-08-22 02:50:11 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-08-22 02:50:12 | INFO     | LoginPage                      | CLICK -> Login button
+2026-08-22 02:50:12 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Backpack
+2026-08-22 02:50:12 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Bike Light
+2026-08-22 02:50:12 | INFO     | InventoryPage                  | GET TEXT -> 'Cart badge' = '1'
+2026-08-22 02:50:12 | INFO     | ScreenshotUtils                | Screenshot captured: /home/runner/work/QA-Automation-Framework/QA-Automation-Framework/screenshots/test_cart_badge_updates_dynamically_2026-08-22_02-50-12.png
+2026-08-22 02:50:12 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-08-22 02:50:12 | INFO     | Conftest                       | TEST END   -> test_cart_badge_updates_dynamically | STATUS: FAILED
+2026-08-22 02:50:12 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-08-22 02:50:14 | INFO     | Conftest                       | ======================================================================
+2026-08-22 02:50:14 | INFO     | Conftest                       | TEST START -> test_cart_badge_updates_dynamically
+2026-08-22 02:50:14 | INFO     | Conftest                       | ======================================================================
+2026-08-22 02:50:14 | INFO     | DriverFactory                  | Initializing 'chrome' driver | headless=True
+2026-08-22 02:50:14 | INFO     | DriverFactory                  | BROWSER LAUNCH -> CHROME driver initialized
+2026-08-22 02:50:14 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-08-22 02:50:15 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-08-22 02:50:15 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-08-22 02:50:15 | INFO     | LoginPage                      | CLICK -> Login button
+2026-08-22 02:50:15 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Backpack
+2026-08-22 02:50:15 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Bike Light
+2026-08-22 02:50:15 | INFO     | InventoryPage                  | GET TEXT -> 'Cart badge' = '1'
+2026-08-22 02:50:16 | INFO     | ScreenshotUtils                | Screenshot captured: /home/runner/work/QA-Automation-Framework/QA-Automation-Framework/screenshots/test_cart_badge_updates_dynamically_2026-08-22_02-50-15.png
+2026-08-22 02:50:16 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-08-22 02:50:16 | INFO     | Conftest                       | TEST END   -> test_cart_badge_updates_dynamically | STATUS: FAILED
+2026-08-22 02:50:16 | INFO     | Conftest                       | ----------------------------------------------------------------------
