@@ -1,0 +1,25 @@
+2026-08-25 02:53:59 | INFO     | Conftest                       | ======================================================================
+2026-08-25 02:53:59 | INFO     | Conftest                       | TEST START -> test_successful_checkout
+2026-08-25 02:53:59 | INFO     | Conftest                       | ======================================================================
+2026-08-25 02:53:59 | INFO     | DriverFactory                  | Initializing 'chrome' driver | headless=True
+2026-08-25 02:54:00 | INFO     | DriverFactory                  | BROWSER LAUNCH -> CHROME driver initialized
+2026-08-25 02:54:00 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-08-25 02:54:00 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-08-25 02:54:00 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-08-25 02:54:01 | INFO     | LoginPage                      | CLICK -> Login button
+2026-08-25 02:54:01 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Backpack
+2026-08-25 02:54:01 | INFO     | InventoryPage                  | CLICK -> Cart icon
+2026-08-25 02:54:01 | INFO     | CartPage                       | CLICK -> Checkout button
+2026-08-25 02:54:01 | INFO     | CheckoutPage                   | TYPE -> 'First name field' <- 'Jeffrey'
+2026-08-25 02:54:01 | INFO     | CheckoutPage                   | TYPE -> 'Last name field' <- 'Lopez'
+2026-08-25 02:54:01 | INFO     | CheckoutPage                   | TYPE -> 'Postal code field' <- '02170'
+2026-08-25 02:54:01 | INFO     | CheckoutPage                   | CLICK -> Continue button
+2026-08-25 02:54:01 | INFO     | CheckoutOverviewPage           | GET TEXT -> 'Item total label' = 'Item total: $29.99'
+2026-08-25 02:54:01 | INFO     | CheckoutOverviewPage           | GET TEXT -> 'Tax label' = 'Tax: $2.40'
+2026-08-25 02:54:01 | INFO     | CheckoutOverviewPage           | GET TEXT -> 'Total label' = 'Total: $32.39'
+2026-08-25 02:54:01 | INFO     | CheckoutOverviewPage           | CLICK -> Finish button
+2026-08-25 02:54:01 | INFO     | CheckoutCompletePage           | GET TEXT -> 'Order confirmation header' = 'Thank you for your order!'
+2026-08-25 02:54:01 | INFO     | CheckoutCompletePage           | ASSERTION [PASSED] -> Order confirmation header should read 'Thank you for your order!'
+2026-08-25 02:54:01 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-08-25 02:54:01 | INFO     | Conftest                       | TEST END   -> test_successful_checkout | STATUS: PASSED
+2026-08-25 02:54:01 | INFO     | Conftest                       | ----------------------------------------------------------------------
