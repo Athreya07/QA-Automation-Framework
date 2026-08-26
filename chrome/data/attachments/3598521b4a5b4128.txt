@@ -1,0 +1,13 @@
+2026-08-26 03:04:10 | INFO     | Conftest                       | ======================================================================
+2026-08-26 03:04:10 | INFO     | Conftest                       | TEST START -> test_login_data_driven[problem_user-secret_sauce-success]
+2026-08-26 03:04:10 | INFO     | Conftest                       | ======================================================================
+2026-08-26 03:04:10 | INFO     | DriverFactory                  | Initializing 'chrome' driver | headless=True
+2026-08-26 03:04:11 | INFO     | DriverFactory                  | BROWSER LAUNCH -> CHROME driver initialized
+2026-08-26 03:04:11 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-08-26 03:04:11 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'problem_user'
+2026-08-26 03:04:11 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-08-26 03:04:11 | INFO     | LoginPage                      | CLICK -> Login button
+2026-08-26 03:04:11 | INFO     | LoginPage                      | ASSERTION [PASSED] -> Expected successful login for user 'problem_user'
+2026-08-26 03:04:11 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-08-26 03:04:11 | INFO     | Conftest                       | TEST END   -> test_login_data_driven[problem_user-secret_sauce-success] | STATUS: PASSED
+2026-08-26 03:04:11 | INFO     | Conftest                       | ----------------------------------------------------------------------
