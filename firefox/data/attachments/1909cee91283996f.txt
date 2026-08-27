@@ -1,0 +1,15 @@
+2026-08-27 12:17:39 | INFO     | Conftest                       | ======================================================================
+2026-08-27 12:17:39 | INFO     | Conftest                       | TEST START -> test_logout_successfully
+2026-08-27 12:17:39 | INFO     | Conftest                       | ======================================================================
+2026-08-27 12:17:39 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True
+2026-08-27 12:17:41 | INFO     | DriverFactory                  | BROWSER LAUNCH -> FIREFOX driver initialized
+2026-08-27 12:17:41 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-08-27 12:17:41 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-08-27 12:17:41 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-08-27 12:17:42 | INFO     | LoginPage                      | CLICK -> Login button
+2026-08-27 12:17:42 | INFO     | InventoryPage                  | CLICK -> Burger menu button
+2026-08-27 12:17:42 | INFO     | InventoryPage                  | CLICK -> Logout link
+2026-08-27 12:17:42 | INFO     | LoginPage                      | ASSERTION [PASSED] -> User should be redirected to the login page after logout
+2026-08-27 12:17:42 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-08-27 12:17:42 | INFO     | Conftest                       | TEST END   -> test_logout_successfully | STATUS: PASSED
+2026-08-27 12:17:42 | INFO     | Conftest                       | ----------------------------------------------------------------------
