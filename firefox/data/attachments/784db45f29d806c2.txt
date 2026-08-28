@@ -1,0 +1,13 @@
+2026-08-28 13:42:35 | INFO     | Conftest                       | ======================================================================
+2026-08-28 13:42:35 | INFO     | Conftest                       | TEST START -> test_sql_injection_input
+2026-08-28 13:42:35 | INFO     | Conftest                       | ======================================================================
+2026-08-28 13:42:35 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True
+2026-08-28 13:42:37 | INFO     | DriverFactory                  | BROWSER LAUNCH -> FIREFOX driver initialized
+2026-08-28 13:42:37 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-08-28 13:42:38 | INFO     | LoginPage                      | TYPE -> 'Username field' <- '' OR '1'='1'
+2026-08-28 13:42:38 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-08-28 13:42:38 | INFO     | LoginPage                      | CLICK -> Login button
+2026-08-28 13:42:38 | INFO     | LoginPage                      | ASSERTION [PASSED] -> SQL injection payload must NOT result in a successful login
+2026-08-28 13:42:38 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-08-28 13:42:38 | INFO     | Conftest                       | TEST END   -> test_sql_injection_input | STATUS: PASSED
+2026-08-28 13:42:38 | INFO     | Conftest                       | ----------------------------------------------------------------------
