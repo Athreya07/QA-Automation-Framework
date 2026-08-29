@@ -1,0 +1,13 @@
+2026-08-29 08:33:36 | INFO     | Conftest                       | ======================================================================
+2026-08-29 08:33:36 | INFO     | Conftest                       | TEST START -> test_empty_username
+2026-08-29 08:33:36 | INFO     | Conftest                       | ======================================================================
+2026-08-29 08:33:36 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True
+2026-08-29 08:33:38 | INFO     | DriverFactory                  | BROWSER LAUNCH -> FIREFOX driver initialized
+2026-08-29 08:33:38 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-08-29 08:33:39 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-08-29 08:33:39 | INFO     | LoginPage                      | CLICK -> Login button
+2026-08-29 08:33:39 | INFO     | LoginPage                      | ASSERTION [PASSED] -> Error message should be displayed for empty username
+2026-08-29 08:33:39 | INFO     | LoginPage                      | GET TEXT -> 'Login error message' = 'Epic sadface: Username is required'
+2026-08-29 08:33:39 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-08-29 08:33:39 | INFO     | Conftest                       | TEST END   -> test_empty_username | STATUS: PASSED
+2026-08-29 08:33:39 | INFO     | Conftest                       | ----------------------------------------------------------------------

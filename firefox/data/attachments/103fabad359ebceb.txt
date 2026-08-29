@@ -1,0 +1,16 @@
+2026-08-29 08:32:16 | INFO     | Conftest                       | Session config -> browser=firefox, headless=True, env=qa, url=https://www.saucedemo.com/
+2026-08-29 08:32:16 | INFO     | Conftest                       | ======================================================================
+2026-08-29 08:32:16 | INFO     | Conftest                       | TEST START -> test_add_single_product_to_cart
+2026-08-29 08:32:16 | INFO     | Conftest                       | ======================================================================
+2026-08-29 08:32:16 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True
+2026-08-29 08:32:19 | INFO     | DriverFactory                  | BROWSER LAUNCH -> FIREFOX driver initialized
+2026-08-29 08:32:19 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-08-29 08:32:19 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-08-29 08:32:19 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-08-29 08:32:19 | INFO     | LoginPage                      | CLICK -> Login button
+2026-08-29 08:32:19 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Backpack
+2026-08-29 08:32:20 | INFO     | InventoryPage                  | GET TEXT -> 'Cart badge' = '1'
+2026-08-29 08:32:20 | INFO     | InventoryPage                  | ASSERTION [PASSED] -> Cart badge should display 1 after adding one product
+2026-08-29 08:32:20 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-08-29 08:32:20 | INFO     | Conftest                       | TEST END   -> test_add_single_product_to_cart | STATUS: PASSED
+2026-08-29 08:32:20 | INFO     | Conftest                       | ----------------------------------------------------------------------

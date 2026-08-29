@@ -1,0 +1,38 @@
+2026-08-29 08:32:41 | INFO     | Conftest                       | ======================================================================
+2026-08-29 08:32:41 | INFO     | Conftest                       | TEST START -> test_add_multiple_products_to_cart
+2026-08-29 08:32:41 | INFO     | Conftest                       | ======================================================================
+2026-08-29 08:32:41 | INFO     | DriverFactory                  | Initializing 'chrome' driver | headless=True
+2026-08-29 08:32:41 | INFO     | DriverFactory                  | BROWSER LAUNCH -> CHROME driver initialized
+2026-08-29 08:32:41 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-08-29 08:32:42 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-08-29 08:32:42 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-08-29 08:32:42 | INFO     | LoginPage                      | CLICK -> Login button
+2026-08-29 08:32:42 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Backpack
+2026-08-29 08:32:42 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Bike Light
+2026-08-29 08:32:42 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Bolt T-Shirt
+2026-08-29 08:32:42 | INFO     | InventoryPage                  | GET TEXT -> 'Cart badge' = '3'
+2026-08-29 08:32:42 | INFO     | InventoryPage                  | CLICK -> Cart icon
+2026-08-29 08:33:03 | ERROR    | WaitUtils                      | Timeout waiting for element to be PRESENT: ('class name', 'cart_item')
+2026-08-29 08:33:13 | INFO     | ScreenshotUtils                | Screenshot captured: /home/runner/work/QA-Automation-Framework/QA-Automation-Framework/screenshots/test_add_multiple_products_to_cart_2026-08-29_08-33-13.png
+2026-08-29 08:33:13 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-08-29 08:33:13 | INFO     | Conftest                       | TEST END   -> test_add_multiple_products_to_cart | STATUS: FAILED
+2026-08-29 08:33:13 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-08-29 08:33:15 | INFO     | Conftest                       | ======================================================================
+2026-08-29 08:33:15 | INFO     | Conftest                       | TEST START -> test_add_multiple_products_to_cart
+2026-08-29 08:33:15 | INFO     | Conftest                       | ======================================================================
+2026-08-29 08:33:15 | INFO     | DriverFactory                  | Initializing 'chrome' driver | headless=True
+2026-08-29 08:33:16 | INFO     | DriverFactory                  | BROWSER LAUNCH -> CHROME driver initialized
+2026-08-29 08:33:16 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-08-29 08:33:16 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-08-29 08:33:16 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-08-29 08:33:16 | INFO     | LoginPage                      | CLICK -> Login button
+2026-08-29 08:33:16 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Backpack
+2026-08-29 08:33:16 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Bike Light
+2026-08-29 08:33:16 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Bolt T-Shirt
+2026-08-29 08:33:16 | INFO     | InventoryPage                  | GET TEXT -> 'Cart badge' = '3'
+2026-08-29 08:33:16 | INFO     | InventoryPage                  | CLICK -> Cart icon
+2026-08-29 08:33:38 | ERROR    | WaitUtils                      | Timeout waiting for element to be PRESENT: ('class name', 'cart_item')
+2026-08-29 08:33:48 | INFO     | ScreenshotUtils                | Screenshot captured: /home/runner/work/QA-Automation-Framework/QA-Automation-Framework/screenshots/test_add_multiple_products_to_cart_2026-08-29_08-33-48.png
+2026-08-29 08:33:48 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-08-29 08:33:48 | INFO     | Conftest                       | TEST END   -> test_add_multiple_products_to_cart | STATUS: FAILED
+2026-08-29 08:33:48 | INFO     | Conftest                       | ----------------------------------------------------------------------

@@ -1,0 +1,13 @@
+2026-08-29 08:34:01 | INFO     | Conftest                       | ======================================================================
+2026-08-29 08:34:01 | INFO     | Conftest                       | TEST START -> test_login_data_driven[performance_glitch_user-secret_sauce-success]
+2026-08-29 08:34:01 | INFO     | Conftest                       | ======================================================================
+2026-08-29 08:34:01 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True
+2026-08-29 08:34:03 | INFO     | DriverFactory                  | BROWSER LAUNCH -> FIREFOX driver initialized
+2026-08-29 08:34:03 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-08-29 08:34:03 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'performance_glitch_user'
+2026-08-29 08:34:03 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-08-29 08:34:08 | INFO     | LoginPage                      | CLICK -> Login button
+2026-08-29 08:34:08 | INFO     | LoginPage                      | ASSERTION [PASSED] -> Expected successful login for user 'performance_glitch_user'
+2026-08-29 08:34:08 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-08-29 08:34:08 | INFO     | Conftest                       | TEST END   -> test_login_data_driven[performance_glitch_user-secret_sauce-success] | STATUS: PASSED
+2026-08-29 08:34:08 | INFO     | Conftest                       | ----------------------------------------------------------------------
