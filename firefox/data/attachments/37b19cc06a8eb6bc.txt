@@ -1,0 +1,13 @@
+2026-08-30 07:47:08 | INFO     | Conftest                       | ======================================================================
+2026-08-30 07:47:08 | INFO     | Conftest                       | TEST START -> test_empty_password
+2026-08-30 07:47:08 | INFO     | Conftest                       | ======================================================================
+2026-08-30 07:47:08 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True
+2026-08-30 07:47:10 | INFO     | DriverFactory                  | BROWSER LAUNCH -> FIREFOX driver initialized
+2026-08-30 07:47:10 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-08-30 07:47:11 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-08-30 07:47:11 | INFO     | LoginPage                      | CLICK -> Login button
+2026-08-30 07:47:11 | INFO     | LoginPage                      | ASSERTION [PASSED] -> Error message should be displayed for empty password
+2026-08-30 07:47:11 | INFO     | LoginPage                      | GET TEXT -> 'Login error message' = 'Epic sadface: Password is required'
+2026-08-30 07:47:11 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-08-30 07:47:11 | INFO     | Conftest                       | TEST END   -> test_empty_password | STATUS: PASSED
+2026-08-30 07:47:11 | INFO     | Conftest                       | ----------------------------------------------------------------------
