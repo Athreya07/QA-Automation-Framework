@@ -1,0 +1,17 @@
+2026-08-31 08:00:10 | INFO     | Conftest                       | ======================================================================
+2026-08-31 08:00:10 | INFO     | Conftest                       | TEST START -> test_add_multiple_products_to_cart
+2026-08-31 08:00:10 | INFO     | Conftest                       | ======================================================================
+2026-08-31 08:00:10 | INFO     | DriverFactory                  | Initializing 'chrome' driver | headless=True
+2026-08-31 08:00:11 | INFO     | DriverFactory                  | BROWSER LAUNCH -> CHROME driver initialized
+2026-08-31 08:00:11 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-08-31 08:00:11 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-08-31 08:00:11 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-08-31 08:00:11 | INFO     | LoginPage                      | CLICK -> Login button
+2026-08-31 08:00:12 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Backpack
+2026-08-31 08:00:12 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Bike Light
+2026-08-31 08:00:12 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Bolt T-Shirt
+2026-08-31 08:00:12 | INFO     | InventoryPage                  | GET TEXT -> 'Cart badge' = '2'
+2026-08-31 08:00:12 | INFO     | ScreenshotUtils                | Screenshot captured: /home/runner/work/QA-Automation-Framework/QA-Automation-Framework/screenshots/test_add_multiple_products_to_cart_2026-08-31_08-00-12.png
+2026-08-31 08:00:12 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-08-31 08:00:12 | INFO     | Conftest                       | TEST END   -> test_add_multiple_products_to_cart | STATUS: FAILED
+2026-08-31 08:00:12 | INFO     | Conftest                       | ----------------------------------------------------------------------

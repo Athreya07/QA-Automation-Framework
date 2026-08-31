@@ -1,0 +1,134 @@
+2026-08-31 08:01:09 | INFO     | Conftest                       | ======================================================================
+2026-08-31 08:01:09 | INFO     | Conftest                       | TEST START -> test_missing_first_name
+2026-08-31 08:01:09 | INFO     | Conftest                       | ======================================================================
+2026-08-31 08:01:09 | INFO     | DriverFactory                  | Initializing 'chrome' driver | headless=True
+2026-08-31 08:01:10 | INFO     | DriverFactory                  | BROWSER LAUNCH -> CHROME driver initialized
+2026-08-31 08:01:10 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-08-31 08:01:10 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-08-31 08:01:10 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-08-31 08:01:10 | INFO     | LoginPage                      | CLICK -> Login button
+2026-08-31 08:01:10 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Backpack
+2026-08-31 08:01:10 | INFO     | InventoryPage                  | CLICK -> Cart icon
+2026-08-31 08:01:11 | INFO     | CartPage                       | CLICK -> Checkout button
+2026-08-31 08:01:32 | ERROR    | WaitUtils                      | Timeout waiting for element to be VISIBLE: ('id', 'last-name')
+2026-08-31 08:01:32 | ERROR    | CheckoutPage                   | EXCEPTION -> Failed to type into element: Last name field | TimeoutException: Message: 
+Stacktrace:
+#0 0x5636b94de36a <unknown>
+#1 0x5636b8e51f49 <unknown>
+#2 0x5636b8ea77e2 <unknown>
+#3 0x5636b8ea7a31 <unknown>
+#4 0x5636b8ef2ed4 <unknown>
+#5 0x5636b8ef00c3 <unknown>
+#6 0x5636b8e9ac92 <unknown>
+#7 0x5636b8e9bb11 <unknown>
+#8 0x5636b94a38d0 <unknown>
+#9 0x5636b94a1f3a <unknown>
+#10 0x5636b948c9b5 <unknown>
+#11 0x5636b94a2c0a <unknown>
+#12 0x5636b9474740 <unknown>
+#13 0x5636b94c99a8 <unknown>
+#14 0x5636b94c9b45 <unknown>
+#15 0x5636b94dcf1e <unknown>
+#16 0x7f00a8e9cb84 <unknown>
+#17 0x7f00a8f29d6c <unknown>
+Traceback (most recent call last):
+  File "/home/runner/work/QA-Automation-Framework/QA-Automation-Framework/pages/base_page.py", line 70, in type_text
+    element = self.wait.wait_for_visible(locator)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/QA-Automation-Framework/QA-Automation-Framework/utilities/wait_utils.py", line 34, in wait_for_visible
+    return self.wait.until(EC.visibility_of_element_located(locator))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/selenium/webdriver/support/wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+#0 0x5636b94de36a <unknown>
+#1 0x5636b8e51f49 <unknown>
+#2 0x5636b8ea77e2 <unknown>
+#3 0x5636b8ea7a31 <unknown>
+#4 0x5636b8ef2ed4 <unknown>
+#5 0x5636b8ef00c3 <unknown>
+#6 0x5636b8e9ac92 <unknown>
+#7 0x5636b8e9bb11 <unknown>
+#8 0x5636b94a38d0 <unknown>
+#9 0x5636b94a1f3a <unknown>
+#10 0x5636b948c9b5 <unknown>
+#11 0x5636b94a2c0a <unknown>
+#12 0x5636b9474740 <unknown>
+#13 0x5636b94c99a8 <unknown>
+#14 0x5636b94c9b45 <unknown>
+#15 0x5636b94dcf1e <unknown>
+#16 0x7f00a8e9cb84 <unknown>
+#17 0x7f00a8f29d6c <unknown>
+
+2026-08-31 08:01:32 | INFO     | ScreenshotUtils                | Screenshot captured: /home/runner/work/QA-Automation-Framework/QA-Automation-Framework/screenshots/test_missing_first_name_2026-08-31_08-01-32.png
+2026-08-31 08:01:32 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-08-31 08:01:32 | INFO     | Conftest                       | TEST END   -> test_missing_first_name | STATUS: FAILED
+2026-08-31 08:01:32 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-08-31 08:01:34 | INFO     | Conftest                       | ======================================================================
+2026-08-31 08:01:34 | INFO     | Conftest                       | TEST START -> test_missing_first_name
+2026-08-31 08:01:34 | INFO     | Conftest                       | ======================================================================
+2026-08-31 08:01:34 | INFO     | DriverFactory                  | Initializing 'chrome' driver | headless=True
+2026-08-31 08:01:34 | INFO     | DriverFactory                  | BROWSER LAUNCH -> CHROME driver initialized
+2026-08-31 08:01:34 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-08-31 08:01:35 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-08-31 08:01:35 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-08-31 08:01:35 | INFO     | LoginPage                      | CLICK -> Login button
+2026-08-31 08:01:35 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Backpack
+2026-08-31 08:01:35 | INFO     | InventoryPage                  | CLICK -> Cart icon
+2026-08-31 08:01:35 | INFO     | CartPage                       | CLICK -> Checkout button
+2026-08-31 08:01:56 | ERROR    | WaitUtils                      | Timeout waiting for element to be VISIBLE: ('id', 'last-name')
+2026-08-31 08:01:56 | ERROR    | CheckoutPage                   | EXCEPTION -> Failed to type into element: Last name field | TimeoutException: Message: 
+Stacktrace:
+#0 0x562a6ced736a <unknown>
+#1 0x562a6c84af49 <unknown>
+#2 0x562a6c8a07e2 <unknown>
+#3 0x562a6c8a0a31 <unknown>
+#4 0x562a6c8ebed4 <unknown>
+#5 0x562a6c8e90c3 <unknown>
+#6 0x562a6c893c92 <unknown>
+#7 0x562a6c894b11 <unknown>
+#8 0x562a6ce9c8d0 <unknown>
+#9 0x562a6ce9af3a <unknown>
+#10 0x562a6ce859b5 <unknown>
+#11 0x562a6ce9bc0a <unknown>
+#12 0x562a6ce6d740 <unknown>
+#13 0x562a6cec29a8 <unknown>
+#14 0x562a6cec2b45 <unknown>
+#15 0x562a6ced5f1e <unknown>
+#16 0x7fabb6e9cb84 <unknown>
+#17 0x7fabb6f29d6c <unknown>
+Traceback (most recent call last):
+  File "/home/runner/work/QA-Automation-Framework/QA-Automation-Framework/pages/base_page.py", line 70, in type_text
+    element = self.wait.wait_for_visible(locator)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/QA-Automation-Framework/QA-Automation-Framework/utilities/wait_utils.py", line 34, in wait_for_visible
+    return self.wait.until(EC.visibility_of_element_located(locator))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/selenium/webdriver/support/wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+#0 0x562a6ced736a <unknown>
+#1 0x562a6c84af49 <unknown>
+#2 0x562a6c8a07e2 <unknown>
+#3 0x562a6c8a0a31 <unknown>
+#4 0x562a6c8ebed4 <unknown>
+#5 0x562a6c8e90c3 <unknown>
+#6 0x562a6c893c92 <unknown>
+#7 0x562a6c894b11 <unknown>
+#8 0x562a6ce9c8d0 <unknown>
+#9 0x562a6ce9af3a <unknown>
+#10 0x562a6ce859b5 <unknown>
+#11 0x562a6ce9bc0a <unknown>
+#12 0x562a6ce6d740 <unknown>
+#13 0x562a6cec29a8 <unknown>
+#14 0x562a6cec2b45 <unknown>
+#15 0x562a6ced5f1e <unknown>
+#16 0x7fabb6e9cb84 <unknown>
+#17 0x7fabb6f29d6c <unknown>
+
+2026-08-31 08:01:56 | INFO     | ScreenshotUtils                | Screenshot captured: /home/runner/work/QA-Automation-Framework/QA-Automation-Framework/screenshots/test_missing_first_name_2026-08-31_08-01-56.png
+2026-08-31 08:01:56 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-08-31 08:01:56 | INFO     | Conftest                       | TEST END   -> test_missing_first_name | STATUS: FAILED
+2026-08-31 08:01:56 | INFO     | Conftest                       | ----------------------------------------------------------------------
