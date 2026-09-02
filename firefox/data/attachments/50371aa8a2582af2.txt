@@ -1,0 +1,8 @@
+2026-09-02 06:45:28 | INFO     | Conftest                       | ======================================================================
+2026-09-02 06:45:28 | INFO     | Conftest                       | TEST START -> test_locked_out_user
+2026-09-02 06:45:28 | INFO     | Conftest                       | ======================================================================
+2026-09-02 06:45:28 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True
+2026-09-02 06:45:31 | INFO     | Conftest                       | ======================================================================
+2026-09-02 06:45:31 | INFO     | Conftest                       | TEST START -> test_locked_out_user
+2026-09-02 06:45:31 | INFO     | Conftest                       | ======================================================================
+2026-09-02 06:45:31 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True
