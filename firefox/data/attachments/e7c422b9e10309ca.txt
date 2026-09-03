@@ -1,8 +1,0 @@
-2026-09-02 06:45:33 | INFO     | Conftest                       | ======================================================================
-2026-09-02 06:45:33 | INFO     | Conftest                       | TEST START -> test_xss_input
-2026-09-02 06:45:33 | INFO     | Conftest                       | ======================================================================
-2026-09-02 06:45:33 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True
-2026-09-02 06:45:36 | INFO     | Conftest                       | ======================================================================
-2026-09-02 06:45:36 | INFO     | Conftest                       | TEST START -> test_xss_input
-2026-09-02 06:45:36 | INFO     | Conftest                       | ======================================================================
-2026-09-02 06:45:36 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True
