@@ -1,0 +1,16 @@
+2026-09-05 06:37:02 | INFO     | Conftest                       | ======================================================================
+2026-09-05 06:37:02 | INFO     | Conftest                       | TEST START -> test_cancel_checkout
+2026-09-05 06:37:02 | INFO     | Conftest                       | ======================================================================
+2026-09-05 06:37:02 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True
+2026-09-05 06:37:04 | INFO     | DriverFactory                  | BROWSER LAUNCH -> FIREFOX driver initialized
+2026-09-05 06:37:04 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-09-05 06:37:04 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-09-05 06:37:04 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-09-05 06:37:04 | INFO     | LoginPage                      | CLICK -> Login button
+2026-09-05 06:37:05 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Backpack
+2026-09-05 06:37:05 | INFO     | InventoryPage                  | CLICK -> Cart icon
+2026-09-05 06:37:05 | INFO     | CartPage                       | CLICK -> Checkout button
+2026-09-05 06:37:05 | INFO     | CheckoutPage                   | CLICK -> Cancel button
+2026-09-05 06:37:05 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-09-05 06:37:05 | INFO     | Conftest                       | TEST END   -> test_cancel_checkout | STATUS: PASSED
+2026-09-05 06:37:05 | INFO     | Conftest                       | ----------------------------------------------------------------------
