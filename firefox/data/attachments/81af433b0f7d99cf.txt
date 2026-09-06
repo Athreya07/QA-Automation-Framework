@@ -1,0 +1,8 @@
+2026-09-06 06:46:30 | INFO     | Conftest                       | ======================================================================
+2026-09-06 06:46:30 | INFO     | Conftest                       | TEST START -> test_missing_first_name
+2026-09-06 06:46:30 | INFO     | Conftest                       | ======================================================================
+2026-09-06 06:46:30 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True
+2026-09-06 06:46:33 | INFO     | Conftest                       | ======================================================================
+2026-09-06 06:46:33 | INFO     | Conftest                       | TEST START -> test_missing_first_name
+2026-09-06 06:46:33 | INFO     | Conftest                       | ======================================================================
+2026-09-06 06:46:33 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True

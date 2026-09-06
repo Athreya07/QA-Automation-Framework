@@ -1,0 +1,8 @@
+2026-09-06 06:46:37 | INFO     | Conftest                       | ======================================================================
+2026-09-06 06:46:37 | INFO     | Conftest                       | TEST START -> test_cancel_checkout
+2026-09-06 06:46:37 | INFO     | Conftest                       | ======================================================================
+2026-09-06 06:46:37 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True
+2026-09-06 06:46:40 | INFO     | Conftest                       | ======================================================================
+2026-09-06 06:46:40 | INFO     | Conftest                       | TEST START -> test_cancel_checkout
+2026-09-06 06:46:40 | INFO     | Conftest                       | ======================================================================
+2026-09-06 06:46:40 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True
