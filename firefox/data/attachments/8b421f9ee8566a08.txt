@@ -1,8 +1,0 @@
-2026-09-06 06:47:01 | INFO     | Conftest                       | ======================================================================
-2026-09-06 06:47:01 | INFO     | Conftest                       | TEST START -> test_invalid_login_wrong_password
-2026-09-06 06:47:01 | INFO     | Conftest                       | ======================================================================
-2026-09-06 06:47:01 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True
-2026-09-06 06:47:03 | INFO     | Conftest                       | ======================================================================
-2026-09-06 06:47:03 | INFO     | Conftest                       | TEST START -> test_invalid_login_wrong_password
-2026-09-06 06:47:03 | INFO     | Conftest                       | ======================================================================
-2026-09-06 06:47:03 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True

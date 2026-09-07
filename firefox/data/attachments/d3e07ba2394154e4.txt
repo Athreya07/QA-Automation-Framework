@@ -1,4 +1,0 @@
-2026-09-06 06:47:10 | INFO     | Conftest                       | ======================================================================
-2026-09-06 06:47:10 | INFO     | Conftest                       | TEST START -> test_locked_out_user
-2026-09-06 06:47:10 | INFO     | Conftest                       | ======================================================================
-2026-09-06 06:47:10 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True

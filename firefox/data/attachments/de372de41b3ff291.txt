@@ -1,8 +1,0 @@
-2026-09-06 06:46:56 | INFO     | Conftest                       | ======================================================================
-2026-09-06 06:46:56 | INFO     | Conftest                       | TEST START -> test_sort_price_high_to_low
-2026-09-06 06:46:56 | INFO     | Conftest                       | ======================================================================
-2026-09-06 06:46:56 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True
-2026-09-06 06:46:58 | INFO     | Conftest                       | ======================================================================
-2026-09-06 06:46:58 | INFO     | Conftest                       | TEST START -> test_sort_price_high_to_low
-2026-09-06 06:46:58 | INFO     | Conftest                       | ======================================================================
-2026-09-06 06:46:58 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True
