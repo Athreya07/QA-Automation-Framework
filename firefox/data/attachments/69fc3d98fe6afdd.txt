@@ -1,0 +1,15 @@
+2026-09-09 06:59:12 | INFO     | Conftest                       | ======================================================================
+2026-09-09 06:59:12 | INFO     | Conftest                       | TEST START -> test_remove_product_from_cart
+2026-09-09 06:59:12 | INFO     | Conftest                       | ======================================================================
+2026-09-09 06:59:12 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True
+2026-09-09 06:59:14 | INFO     | DriverFactory                  | BROWSER LAUNCH -> FIREFOX driver initialized
+2026-09-09 06:59:14 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-09-09 06:59:14 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-09-09 06:59:14 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-09-09 06:59:15 | INFO     | LoginPage                      | CLICK -> Login button
+2026-09-09 06:59:15 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Backpack
+2026-09-09 06:59:15 | INFO     | InventoryPage                  | Removed product from cart: Sauce Labs Backpack
+2026-09-09 06:59:25 | INFO     | InventoryPage                  | ASSERTION [PASSED] -> Cart badge should disappear after removing the only product
+2026-09-09 06:59:25 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-09-09 06:59:25 | INFO     | Conftest                       | TEST END   -> test_remove_product_from_cart | STATUS: PASSED
+2026-09-09 06:59:25 | INFO     | Conftest                       | ----------------------------------------------------------------------
