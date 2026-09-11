@@ -1,0 +1,66 @@
+2026-09-11 06:58:20 | INFO     | Conftest                       | ======================================================================
+2026-09-11 06:58:20 | INFO     | Conftest                       | TEST START -> test_missing_last_name
+2026-09-11 06:58:20 | INFO     | Conftest                       | ======================================================================
+2026-09-11 06:58:20 | INFO     | DriverFactory                  | Initializing 'chrome' driver | headless=True
+2026-09-11 06:58:20 | INFO     | DriverFactory                  | BROWSER LAUNCH -> CHROME driver initialized
+2026-09-11 06:58:20 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-09-11 06:58:21 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-09-11 06:58:21 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-09-11 06:58:21 | INFO     | LoginPage                      | CLICK -> Login button
+2026-09-11 06:58:21 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Backpack
+2026-09-11 06:58:21 | INFO     | InventoryPage                  | CLICK -> Cart icon
+2026-09-11 06:58:42 | ERROR    | WaitUtils                      | Timeout waiting for element to be CLICKABLE: ('id', 'checkout')
+2026-09-11 06:58:42 | ERROR    | CartPage                       | EXCEPTION -> Failed to click element: Checkout button | TimeoutException: Message: 
+Stacktrace:
+#0 0x5607b144e03a <unknown>
+#1 0x5607b0db64c9 <unknown>
+#2 0x5607b0e0c242 <unknown>
+#3 0x5607b0e0c4a1 <unknown>
+#4 0x5607b0e57394 <unknown>
+#5 0x5607b0e545ad <unknown>
+#6 0x5607b0dff83b <unknown>
+#7 0x5607b0e00621 <unknown>
+#8 0x5607b14125f0 <unknown>
+#9 0x5607b1410c6a <unknown>
+#10 0x5607b13fb9f5 <unknown>
+#11 0x5607b141192a <unknown>
+#12 0x5607b13e4d10 <unknown>
+#13 0x5607b1439158 <unknown>
+#14 0x5607b14392f5 <unknown>
+#15 0x5607b144cbc3 <unknown>
+#16 0x7fe7dd49cb84 <unknown>
+#17 0x7fe7dd529d6c <unknown>
+Traceback (most recent call last):
+  File "/home/runner/work/QA-Automation-Framework/QA-Automation-Framework/pages/base_page.py", line 49, in click
+    element = self.wait.wait_for_clickable(locator)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/QA-Automation-Framework/QA-Automation-Framework/utilities/wait_utils.py", line 42, in wait_for_clickable
+    return self.wait.until(EC.element_to_be_clickable(locator))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/selenium/webdriver/support/wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+#0 0x5607b144e03a <unknown>
+#1 0x5607b0db64c9 <unknown>
+#2 0x5607b0e0c242 <unknown>
+#3 0x5607b0e0c4a1 <unknown>
+#4 0x5607b0e57394 <unknown>
+#5 0x5607b0e545ad <unknown>
+#6 0x5607b0dff83b <unknown>
+#7 0x5607b0e00621 <unknown>
+#8 0x5607b14125f0 <unknown>
+#9 0x5607b1410c6a <unknown>
+#10 0x5607b13fb9f5 <unknown>
+#11 0x5607b141192a <unknown>
+#12 0x5607b13e4d10 <unknown>
+#13 0x5607b1439158 <unknown>
+#14 0x5607b14392f5 <unknown>
+#15 0x5607b144cbc3 <unknown>
+#16 0x7fe7dd49cb84 <unknown>
+#17 0x7fe7dd529d6c <unknown>
+
+2026-09-11 06:58:42 | INFO     | ScreenshotUtils                | Screenshot captured: /home/runner/work/QA-Automation-Framework/QA-Automation-Framework/screenshots/test_missing_last_name_2026-09-11_06-58-42.png
+2026-09-11 06:58:42 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-09-11 06:58:42 | INFO     | Conftest                       | TEST END   -> test_missing_last_name | STATUS: FAILED
+2026-09-11 06:58:42 | INFO     | Conftest                       | ----------------------------------------------------------------------
