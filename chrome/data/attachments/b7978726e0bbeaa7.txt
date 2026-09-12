@@ -1,0 +1,13 @@
+2026-09-12 06:47:55 | INFO     | Conftest                       | ======================================================================
+2026-09-12 06:47:55 | INFO     | Conftest                       | TEST START -> test_product_count
+2026-09-12 06:47:55 | INFO     | Conftest                       | ======================================================================
+2026-09-12 06:47:55 | INFO     | DriverFactory                  | Initializing 'chrome' driver | headless=True
+2026-09-12 06:47:56 | INFO     | DriverFactory                  | BROWSER LAUNCH -> CHROME driver initialized
+2026-09-12 06:47:56 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-09-12 06:47:56 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-09-12 06:47:56 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-09-12 06:47:57 | INFO     | LoginPage                      | CLICK -> Login button
+2026-09-12 06:47:57 | INFO     | InventoryPage                  | ASSERTION [PASSED] -> Expected 6 products, found 6
+2026-09-12 06:47:57 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-09-12 06:47:57 | INFO     | Conftest                       | TEST END   -> test_product_count | STATUS: PASSED
+2026-09-12 06:47:57 | INFO     | Conftest                       | ----------------------------------------------------------------------

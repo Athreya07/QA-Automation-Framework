@@ -1,0 +1,13 @@
+2026-09-12 06:48:41 | INFO     | Conftest                       | ======================================================================
+2026-09-12 06:48:41 | INFO     | Conftest                       | TEST START -> test_sort_price_high_to_low
+2026-09-12 06:48:41 | INFO     | Conftest                       | ======================================================================
+2026-09-12 06:48:41 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True
+2026-09-12 06:48:43 | INFO     | DriverFactory                  | BROWSER LAUNCH -> FIREFOX driver initialized
+2026-09-12 06:48:43 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-09-12 06:48:43 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-09-12 06:48:44 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-09-12 06:48:44 | INFO     | LoginPage                      | CLICK -> Login button
+2026-09-12 06:48:44 | INFO     | InventoryPage                  | SELECT -> 'Sort dropdown' -> value='hilo'
+2026-09-12 06:48:44 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-09-12 06:48:44 | INFO     | Conftest                       | TEST END   -> test_sort_price_high_to_low | STATUS: PASSED
+2026-09-12 06:48:44 | INFO     | Conftest                       | ----------------------------------------------------------------------
