@@ -1,0 +1,12 @@
+2026-09-22 07:12:43 | INFO     | Conftest                       | ======================================================================
+2026-09-22 07:12:43 | INFO     | Conftest                       | TEST START -> test_product_names_are_not_empty
+2026-09-22 07:12:43 | INFO     | Conftest                       | ======================================================================
+2026-09-22 07:12:43 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True
+2026-09-22 07:12:45 | INFO     | DriverFactory                  | BROWSER LAUNCH -> FIREFOX driver initialized
+2026-09-22 07:12:45 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-09-22 07:12:45 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-09-22 07:12:45 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-09-22 07:12:45 | INFO     | LoginPage                      | CLICK -> Login button
+2026-09-22 07:12:46 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-09-22 07:12:46 | INFO     | Conftest                       | TEST END   -> test_product_names_are_not_empty | STATUS: PASSED
+2026-09-22 07:12:46 | INFO     | Conftest                       | ----------------------------------------------------------------------
