@@ -1,0 +1,87 @@
+2026-09-26 06:59:37 | INFO     | Conftest                       | ======================================================================
+2026-09-26 06:59:37 | INFO     | Conftest                       | TEST START -> test_successful_checkout
+2026-09-26 06:59:37 | INFO     | Conftest                       | ======================================================================
+2026-09-26 06:59:37 | INFO     | DriverFactory                  | Initializing 'chrome' driver | headless=True
+2026-09-26 06:59:37 | INFO     | DriverFactory                  | BROWSER LAUNCH -> CHROME driver initialized
+2026-09-26 06:59:37 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-09-26 06:59:38 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-09-26 06:59:38 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-09-26 06:59:38 | INFO     | LoginPage                      | CLICK -> Login button
+2026-09-26 06:59:38 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Backpack
+2026-09-26 06:59:38 | INFO     | InventoryPage                  | CLICK -> Cart icon
+2026-09-26 06:59:38 | INFO     | CartPage                       | CLICK -> Checkout button
+2026-09-26 06:59:38 | INFO     | CheckoutPage                   | TYPE -> 'First name field' <- 'Richard'
+2026-09-26 06:59:38 | INFO     | CheckoutPage                   | TYPE -> 'Last name field' <- 'Skinner'
+2026-09-26 06:59:38 | INFO     | CheckoutPage                   | TYPE -> 'Postal code field' <- '37653'
+2026-09-26 06:59:38 | INFO     | CheckoutPage                   | CLICK -> Continue button
+2026-09-26 06:59:38 | INFO     | ScreenshotUtils                | Screenshot captured: /home/runner/work/QA-Automation-Framework/QA-Automation-Framework/screenshots/test_successful_checkout_2026-09-26_06-59-38.png
+2026-09-26 06:59:38 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-09-26 06:59:38 | INFO     | Conftest                       | TEST END   -> test_successful_checkout | STATUS: FAILED
+2026-09-26 06:59:38 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-09-26 06:59:40 | INFO     | Conftest                       | ======================================================================
+2026-09-26 06:59:40 | INFO     | Conftest                       | TEST START -> test_successful_checkout
+2026-09-26 06:59:40 | INFO     | Conftest                       | ======================================================================
+2026-09-26 06:59:40 | INFO     | DriverFactory                  | Initializing 'chrome' driver | headless=True
+2026-09-26 06:59:41 | INFO     | DriverFactory                  | BROWSER LAUNCH -> CHROME driver initialized
+2026-09-26 06:59:41 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-09-26 06:59:41 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-09-26 06:59:41 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-09-26 06:59:41 | INFO     | LoginPage                      | CLICK -> Login button
+2026-09-26 06:59:42 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Backpack
+2026-09-26 06:59:42 | INFO     | InventoryPage                  | CLICK -> Cart icon
+2026-09-26 06:59:42 | INFO     | CartPage                       | CLICK -> Checkout button
+2026-09-26 07:00:03 | ERROR    | WaitUtils                      | Timeout waiting for element to be VISIBLE: ('id', 'first-name')
+2026-09-26 07:00:03 | ERROR    | CheckoutPage                   | EXCEPTION -> Failed to type into element: First name field | TimeoutException: Message: 
+Stacktrace:
+#0 0x55d05b24c9fa <unknown>
+#1 0x55d05ab825b9 <unknown>
+#2 0x55d05abd8dfc <unknown>
+#3 0x55d05abd9071 <unknown>
+#4 0x55d05ac25664 <unknown>
+#5 0x55d05ac228de <unknown>
+#6 0x55d05abcbb8b <unknown>
+#7 0x55d05abcc971 <unknown>
+#8 0x55d05b20f667 <unknown>
+#9 0x55d05b20de95 <unknown>
+#10 0x55d05b1f8f55 <unknown>
+#11 0x55d05b20eaea <unknown>
+#12 0x55d05b1e16c9 <unknown>
+#13 0x55d05b2369a8 <unknown>
+#14 0x55d05b236b45 <unknown>
+#15 0x55d05b24b353 <unknown>
+#16 0x7f04a349cb84 <unknown>
+#17 0x7f04a3529ecc <unknown>
+Traceback (most recent call last):
+  File "/home/runner/work/QA-Automation-Framework/QA-Automation-Framework/pages/base_page.py", line 70, in type_text
+    element = self.wait.wait_for_visible(locator)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/QA-Automation-Framework/QA-Automation-Framework/utilities/wait_utils.py", line 34, in wait_for_visible
+    return self.wait.until(EC.visibility_of_element_located(locator))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/selenium/webdriver/support/wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+#0 0x55d05b24c9fa <unknown>
+#1 0x55d05ab825b9 <unknown>
+#2 0x55d05abd8dfc <unknown>
+#3 0x55d05abd9071 <unknown>
+#4 0x55d05ac25664 <unknown>
+#5 0x55d05ac228de <unknown>
+#6 0x55d05abcbb8b <unknown>
+#7 0x55d05abcc971 <unknown>
+#8 0x55d05b20f667 <unknown>
+#9 0x55d05b20de95 <unknown>
+#10 0x55d05b1f8f55 <unknown>
+#11 0x55d05b20eaea <unknown>
+#12 0x55d05b1e16c9 <unknown>
+#13 0x55d05b2369a8 <unknown>
+#14 0x55d05b236b45 <unknown>
+#15 0x55d05b24b353 <unknown>
+#16 0x7f04a349cb84 <unknown>
+#17 0x7f04a3529ecc <unknown>
+
+2026-09-26 07:00:03 | INFO     | ScreenshotUtils                | Screenshot captured: /home/runner/work/QA-Automation-Framework/QA-Automation-Framework/screenshots/test_successful_checkout_2026-09-26_07-00-03.png
+2026-09-26 07:00:03 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-09-26 07:00:03 | INFO     | Conftest                       | TEST END   -> test_successful_checkout | STATUS: FAILED
+2026-09-26 07:00:03 | INFO     | Conftest                       | ----------------------------------------------------------------------
