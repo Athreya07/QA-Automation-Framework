@@ -1,0 +1,8 @@
+2026-09-27 07:30:47 | INFO     | Conftest                       | ======================================================================
+2026-09-27 07:30:47 | INFO     | Conftest                       | TEST START -> test_login_data_driven[error_user-secret_sauce-success]
+2026-09-27 07:30:47 | INFO     | Conftest                       | ======================================================================
+2026-09-27 07:30:47 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True
+2026-09-27 07:30:49 | INFO     | Conftest                       | ======================================================================
+2026-09-27 07:30:49 | INFO     | Conftest                       | TEST START -> test_login_data_driven[error_user-secret_sauce-success]
+2026-09-27 07:30:49 | INFO     | Conftest                       | ======================================================================
+2026-09-27 07:30:49 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True
