@@ -1,8 +1,0 @@
-2026-09-30 07:51:49 | INFO     | Conftest                       | ======================================================================
-2026-09-30 07:51:49 | INFO     | Conftest                       | TEST START -> test_login_data_driven[standard_user-wrong_password-failure]
-2026-09-30 07:51:49 | INFO     | Conftest                       | ======================================================================
-2026-09-30 07:51:49 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True
-2026-09-30 07:51:51 | INFO     | Conftest                       | ======================================================================
-2026-09-30 07:51:51 | INFO     | Conftest                       | TEST START -> test_login_data_driven[standard_user-wrong_password-failure]
-2026-09-30 07:51:51 | INFO     | Conftest                       | ======================================================================
-2026-09-30 07:51:51 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True

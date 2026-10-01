@@ -1,8 +1,0 @@
-2026-09-30 07:51:39 | INFO     | Conftest                       | ======================================================================
-2026-09-30 07:51:39 | INFO     | Conftest                       | TEST START -> test_login_data_driven[performance_glitch_user-secret_sauce-success]
-2026-09-30 07:51:39 | INFO     | Conftest                       | ======================================================================
-2026-09-30 07:51:39 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True
-2026-09-30 07:51:41 | INFO     | Conftest                       | ======================================================================
-2026-09-30 07:51:41 | INFO     | Conftest                       | TEST START -> test_login_data_driven[performance_glitch_user-secret_sauce-success]
-2026-09-30 07:51:41 | INFO     | Conftest                       | ======================================================================
-2026-09-30 07:51:41 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True
