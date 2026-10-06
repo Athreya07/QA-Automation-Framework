@@ -1,0 +1,8 @@
+2026-10-06 08:30:30 | INFO     | Conftest                       | ======================================================================
+2026-10-06 08:30:30 | INFO     | Conftest                       | TEST START -> test_back_button_after_logout
+2026-10-06 08:30:30 | INFO     | Conftest                       | ======================================================================
+2026-10-06 08:30:30 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True
+2026-10-06 08:30:32 | INFO     | Conftest                       | ======================================================================
+2026-10-06 08:30:32 | INFO     | Conftest                       | TEST START -> test_back_button_after_logout
+2026-10-06 08:30:32 | INFO     | Conftest                       | ======================================================================
+2026-10-06 08:30:32 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True
