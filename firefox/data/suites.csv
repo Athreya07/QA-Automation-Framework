@@ -1,73 +1,73 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"Checkout should be blocked with an error when first name is missing.","262","test_missing_first_name","tests","2026-10-10","passed","2026-10-10","TestCheckout","test_checkout","",""
 "
         Data-driven login test sourced from testdata/login_data.xlsx.
         Validates each row's expected outcome: success | failure | locked.
-        ","731","test_login_data_driven[locked_out_user-secret_sauce-locked]","tests","2026-10-09","passed","2026-10-09","TestLogin","test_login","",""
-"Checkout should be blocked with an error when postal code is missing.","278","test_missing_postal_code","tests","2026-10-09","passed","2026-10-09","TestCheckout","test_checkout","",""
-"Submitting the form with an empty password should show an error.","817","test_empty_password","tests","2026-10-09","passed","2026-10-09","TestLogin","test_login","",""
-"Sorting by 'Name (A to Z)' should return alphabetically ascending names.","94","test_sort_name_a_to_z","tests","2026-10-09","passed","2026-10-09","TestInventory","test_inventory","",""
-"
-        Data-driven login test sourced from testdata/login_data.xlsx.
-        Validates each row's expected outcome: success | failure | locked.
-        ","842","test_login_data_driven[standard_user-secret_sauce-success]","tests","2026-10-09","passed","2026-10-09","TestLogin","test_login","",""
-"
-        Data-driven login test sourced from testdata/login_data.xlsx.
-        Validates each row's expected outcome: success | failure | locked.
-        ","702","test_login_data_driven[visual_user-secret_sauce-success]","tests","2026-10-09","passed","2026-10-09","TestLogin","test_login","",""
-"
-        Data-driven login test sourced from testdata/login_data.xlsx.
-        Validates each row's expected outcome: success | failure | locked.
-        ","797","test_login_data_driven[standard_user-wrong_password-failure]","tests","2026-10-09","passed","2026-10-09","TestLogin","test_login","",""
-"A locked-out user should be blocked from logging in with a clear error.","733","test_locked_out_user","tests","2026-10-09","passed","2026-10-09","TestLogin","test_login","",""
-"A user with valid credentials should reach the Inventory page.","716","test_valid_login","tests","2026-10-09","passed","2026-10-09","TestLogin","test_login","",""
-"Inventory page should display exactly 6 products for the standard user.","12","test_product_count","tests","2026-10-09","passed","2026-10-09","TestInventory","test_inventory","",""
-"
-        Data-driven login test sourced from testdata/login_data.xlsx.
-        Validates each row's expected outcome: success | failure | locked.
-        ","5847","test_login_data_driven[performance_glitch_user-secret_sauce-success]","tests","2026-10-09","passed","2026-10-09","TestLogin","test_login","",""
-"Cart badge count should increment/decrement correctly as items are added/removed.","425","test_cart_badge_updates_dynamically","tests","2026-10-09","passed","2026-10-09","TestCart","test_cart","",""
-"Checkout should be blocked with an error when first name is missing.","272","test_missing_first_name","tests","2026-10-09","passed","2026-10-09","TestCheckout","test_checkout","",""
-"Login with a completely unknown username should fail.","798","test_invalid_login_unknown_user","tests","2026-10-09","passed","2026-10-09","TestLogin","test_login","",""
-"Logging out should return the user to the login page.","245","test_logout_successfully","tests","2026-10-09","passed","2026-10-09","TestLogout","test_logout","",""
-"Sorting by 'Price (high to low)' should return descending prices.","207","test_sort_price_high_to_low","tests","2026-10-09","passed","2026-10-09","TestInventory","test_inventory","",""
-"Sorting by 'Name (Z to A)' should return alphabetically descending names.","156","test_sort_name_z_to_a","tests","2026-10-09","passed","2026-10-09","TestInventory","test_inventory","",""
-"SQL injection payloads in the login form must not bypass authentication.","841","test_sql_injection_input","tests","2026-10-09","passed","2026-10-09","TestLogin","test_login","",""
-"
-        Data-driven login test sourced from testdata/login_data.xlsx.
-        Validates each row's expected outcome: success | failure | locked.
-        ","808","test_login_data_driven[None-secret_sauce-failure]","tests","2026-10-09","passed","2026-10-09","TestLogin","test_login","",""
-"
-        Data-driven login test sourced from testdata/login_data.xlsx.
-        Validates each row's expected outcome: success | failure | locked.
-        ","772","test_login_data_driven[error_user-secret_sauce-success]","tests","2026-10-09","passed","2026-10-09","TestLogin","test_login","",""
-"Every product must have a positive numeric price.","107","test_product_prices_are_valid","tests","2026-10-09","passed","2026-10-09","TestInventory","test_inventory","",""
-"Adding a single product should update the cart badge to 1.","183","test_add_single_product_to_cart","tests","2026-10-09","passed","2026-10-09","TestCart","test_cart","",""
-"Every product must have a valid (non-empty) image source.","85","test_product_images_are_present","tests","2026-10-09","passed","2026-10-09","TestInventory","test_inventory","",""
-"Cancelling on the checkout info page should return the user to the cart.","147","test_cancel_checkout","tests","2026-10-09","passed","2026-10-09","TestCheckout","test_checkout","",""
+        ","584","test_login_data_driven[None-secret_sauce-failure]","tests","2026-10-10","passed","2026-10-10","TestLogin","test_login","",""
+"Removing a product from the inventory page should clear the cart badge.","10135","test_remove_product_from_cart","tests","2026-10-10","passed","2026-10-10","TestCart","test_cart","",""
+"A user with valid credentials should reach the Inventory page.","603","test_valid_login","tests","2026-10-10","passed","2026-10-10","TestLogin","test_login","",""
+"Adding a single product should update the cart badge to 1.","76","test_add_single_product_to_cart","tests","2026-10-10","passed","2026-10-10","TestCart","test_cart","",""
 "
         After logout, directly navigating to /inventory.html should NOT
         display the inventory page (session must be invalidated).
-        ","408","test_session_invalid_after_logout","tests","2026-10-09","passed","2026-10-09","TestLogout","test_logout","",""
+        ","0","test_session_invalid_after_logout","tests","2026-10-10","broken","2026-10-10","TestLogout","test_logout","",""
+"Sorting by 'Name (A to Z)' should return alphabetically ascending names.","54","test_sort_name_a_to_z","tests","2026-10-10","passed","2026-10-10","TestInventory","test_inventory","",""
 "
         Data-driven login test sourced from testdata/login_data.xlsx.
         Validates each row's expected outcome: success | failure | locked.
-        ","850","test_login_data_driven[problem_user-secret_sauce-success]","tests","2026-10-09","passed","2026-10-09","TestLogin","test_login","",""
-"XSS payloads in the login form must be handled safely (no script execution, login rejected).","709","test_xss_input","tests","2026-10-09","passed","2026-10-09","TestLogin","test_login","",""
-"Submitting the form with an empty username should show an error.","653","test_empty_username","tests","2026-10-09","passed","2026-10-09","TestLogin","test_login","",""
+        ","517","test_login_data_driven[visual_user-secret_sauce-success]","tests","2026-10-10","passed","2026-10-10","TestLogin","test_login","",""
 "
         Data-driven login test sourced from testdata/login_data.xlsx.
         Validates each row's expected outcome: success | failure | locked.
-        ","908","test_login_data_driven[invalid_user-wrong_password-failure]","tests","2026-10-09","passed","2026-10-09","TestLogin","test_login","",""
-"Adding multiple products should reflect the correct count in the cart badge and cart page.","517","test_add_multiple_products_to_cart","tests","2026-10-09","passed","2026-10-09","TestCart","test_cart","",""
-"Sorting by 'Price (low to high)' should return ascending prices.","155","test_sort_price_low_to_high","tests","2026-10-09","passed","2026-10-09","TestInventory","test_inventory","",""
-"Every product must have a non-empty display name.","60","test_product_names_are_not_empty","tests","2026-10-09","passed","2026-10-09","TestInventory","test_inventory","",""
-"Login with a valid username but wrong password should fail with an error.","730","test_invalid_login_wrong_password","tests","2026-10-09","passed","2026-10-09","TestLogin","test_login","",""
-"A user with valid checkout info should be able to complete an order end-to-end.","810","test_successful_checkout","tests","2026-10-09","passed","2026-10-09","TestCheckout","test_checkout","",""
+        ","5640","test_login_data_driven[performance_glitch_user-secret_sauce-success]","tests","2026-10-10","passed","2026-10-10","TestLogin","test_login","",""
+"Submitting the form with an empty password should show an error.","610","test_empty_password","tests","2026-10-10","passed","2026-10-10","TestLogin","test_login","",""
+"A locked-out user should be blocked from logging in with a clear error.","660","test_locked_out_user","tests","2026-10-10","passed","2026-10-10","TestLogin","test_login","",""
+"Every product must have a non-empty display name.","23","test_product_names_are_not_empty","tests","2026-10-10","passed","2026-10-10","TestInventory","test_inventory","",""
 "
         Data-driven login test sourced from testdata/login_data.xlsx.
         Validates each row's expected outcome: success | failure | locked.
-        ","718","test_login_data_driven[standard_user-None-failure]","tests","2026-10-09","passed","2026-10-09","TestLogin","test_login","",""
-"Removing a product from the inventory page should clear the cart badge.","10208","test_remove_product_from_cart","tests","2026-10-09","passed","2026-10-09","TestCart","test_cart","",""
-"Using the browser back button after logout should not restore an authenticated session view.","269","test_back_button_after_logout","tests","2026-10-09","passed","2026-10-09","TestLogout","test_logout","",""
-"Checkout should be blocked with an error when last name is missing.","235","test_missing_last_name","tests","2026-10-09","passed","2026-10-09","TestCheckout","test_checkout","",""
-"Cart contents should persist when navigating to the cart page and back.","387","test_cart_persists_across_navigation","tests","2026-10-09","passed","2026-10-09","TestCart","test_cart","",""
+        ","610","test_login_data_driven[standard_user-None-failure]","tests","2026-10-10","passed","2026-10-10","TestLogin","test_login","",""
+"Sorting by 'Name (Z to A)' should return alphabetically descending names.","102","test_sort_name_z_to_a","tests","2026-10-10","passed","2026-10-10","TestInventory","test_inventory","",""
+"
+        Data-driven login test sourced from testdata/login_data.xlsx.
+        Validates each row's expected outcome: success | failure | locked.
+        ","620","test_login_data_driven[problem_user-secret_sauce-success]","tests","2026-10-10","passed","2026-10-10","TestLogin","test_login","",""
+"Logging out should return the user to the login page.","0","test_logout_successfully","tests","2026-10-10","broken","2026-10-10","TestLogout","test_logout","",""
+"Using the browser back button after logout should not restore an authenticated session view.","0","test_back_button_after_logout","tests","2026-10-10","broken","2026-10-10","TestLogout","test_logout","",""
+"Cart badge count should increment/decrement correctly as items are added/removed.","327","test_cart_badge_updates_dynamically","tests","2026-10-10","passed","2026-10-10","TestCart","test_cart","",""
+"
+        Data-driven login test sourced from testdata/login_data.xlsx.
+        Validates each row's expected outcome: success | failure | locked.
+        ","497","test_login_data_driven[error_user-secret_sauce-success]","tests","2026-10-10","passed","2026-10-10","TestLogin","test_login","",""
+"
+        Data-driven login test sourced from testdata/login_data.xlsx.
+        Validates each row's expected outcome: success | failure | locked.
+        ","603","test_login_data_driven[standard_user-wrong_password-failure]","tests","2026-10-10","passed","2026-10-10","TestLogin","test_login","",""
+"Sorting by 'Price (low to high)' should return ascending prices.","118","test_sort_price_low_to_high","tests","2026-10-10","passed","2026-10-10","TestInventory","test_inventory","",""
+"XSS payloads in the login form must be handled safely (no script execution, login rejected).","592","test_xss_input","tests","2026-10-10","passed","2026-10-10","TestLogin","test_login","",""
+"Cart contents should persist when navigating to the cart page and back.","211","test_cart_persists_across_navigation","tests","2026-10-10","passed","2026-10-10","TestCart","test_cart","",""
+"Checkout should be blocked with an error when postal code is missing.","167","test_missing_postal_code","tests","2026-10-10","passed","2026-10-10","TestCheckout","test_checkout","",""
+"Adding multiple products should reflect the correct count in the cart badge and cart page.","320","test_add_multiple_products_to_cart","tests","2026-10-10","passed","2026-10-10","TestCart","test_cart","",""
+"
+        Data-driven login test sourced from testdata/login_data.xlsx.
+        Validates each row's expected outcome: success | failure | locked.
+        ","548","test_login_data_driven[invalid_user-wrong_password-failure]","tests","2026-10-10","passed","2026-10-10","TestLogin","test_login","",""
+"Every product must have a valid (non-empty) image source.","34","test_product_images_are_present","tests","2026-10-10","passed","2026-10-10","TestInventory","test_inventory","",""
+"Login with a completely unknown username should fail.","599","test_invalid_login_unknown_user","tests","2026-10-10","passed","2026-10-10","TestLogin","test_login","",""
+"Every product must have a positive numeric price.","46","test_product_prices_are_valid","tests","2026-10-10","passed","2026-10-10","TestInventory","test_inventory","",""
+"
+        Data-driven login test sourced from testdata/login_data.xlsx.
+        Validates each row's expected outcome: success | failure | locked.
+        ","607","test_login_data_driven[locked_out_user-secret_sauce-locked]","tests","2026-10-10","passed","2026-10-10","TestLogin","test_login","",""
+"A user with valid checkout info should be able to complete an order end-to-end.","353","test_successful_checkout","tests","2026-10-10","passed","2026-10-10","TestCheckout","test_checkout","",""
+"Submitting the form with an empty username should show an error.","572","test_empty_username","tests","2026-10-10","passed","2026-10-10","TestLogin","test_login","",""
+"SQL injection payloads in the login form must not bypass authentication.","613","test_sql_injection_input","tests","2026-10-10","passed","2026-10-10","TestLogin","test_login","",""
+"Cancelling on the checkout info page should return the user to the cart.","130","test_cancel_checkout","tests","2026-10-10","passed","2026-10-10","TestCheckout","test_checkout","",""
+"Sorting by 'Price (high to low)' should return descending prices.","96","test_sort_price_high_to_low","tests","2026-10-10","passed","2026-10-10","TestInventory","test_inventory","",""
+"Checkout should be blocked with an error when last name is missing.","180","test_missing_last_name","tests","2026-10-10","passed","2026-10-10","TestCheckout","test_checkout","",""
+"Login with a valid username but wrong password should fail with an error.","641","test_invalid_login_wrong_password","tests","2026-10-10","passed","2026-10-10","TestLogin","test_login","",""
+"
+        Data-driven login test sourced from testdata/login_data.xlsx.
+        Validates each row's expected outcome: success | failure | locked.
+        ","581","test_login_data_driven[standard_user-secret_sauce-success]","tests","2026-10-10","passed","2026-10-10","TestLogin","test_login","",""
+"Inventory page should display exactly 6 products for the standard user.","5","test_product_count","tests","2026-10-10","passed","2026-10-10","TestInventory","test_inventory","",""
