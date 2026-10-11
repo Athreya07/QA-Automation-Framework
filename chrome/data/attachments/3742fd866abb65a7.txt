@@ -1,0 +1,32 @@
+2026-10-11 08:15:19 | INFO     | Conftest                       | ======================================================================
+2026-10-11 08:15:19 | INFO     | Conftest                       | TEST START -> test_logout_successfully
+2026-10-11 08:15:19 | INFO     | Conftest                       | ======================================================================
+2026-10-11 08:15:19 | INFO     | DriverFactory                  | Initializing 'chrome' driver | headless=True
+2026-10-11 08:15:20 | INFO     | DriverFactory                  | BROWSER LAUNCH -> CHROME driver initialized
+2026-10-11 08:15:20 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-10-11 08:15:20 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-10-11 08:15:20 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-10-11 08:15:20 | INFO     | LoginPage                      | CLICK -> Login button
+2026-10-11 08:15:20 | INFO     | InventoryPage                  | CLICK -> Burger menu button
+2026-10-11 08:15:21 | INFO     | InventoryPage                  | CLICK -> Logout link
+2026-10-11 08:15:31 | INFO     | LoginPage                      | ASSERTION [FAILED] -> User should be redirected to the login page after logout
+2026-10-11 08:15:31 | INFO     | ScreenshotUtils                | Screenshot captured: /home/runner/work/QA-Automation-Framework/QA-Automation-Framework/screenshots/test_logout_successfully_2026-10-11_08-15-31.png
+2026-10-11 08:15:31 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-10-11 08:15:31 | INFO     | Conftest                       | TEST END   -> test_logout_successfully | STATUS: FAILED
+2026-10-11 08:15:31 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-10-11 08:15:33 | INFO     | Conftest                       | ======================================================================
+2026-10-11 08:15:33 | INFO     | Conftest                       | TEST START -> test_logout_successfully
+2026-10-11 08:15:33 | INFO     | Conftest                       | ======================================================================
+2026-10-11 08:15:33 | INFO     | DriverFactory                  | Initializing 'chrome' driver | headless=True
+2026-10-11 08:15:34 | INFO     | DriverFactory                  | BROWSER LAUNCH -> CHROME driver initialized
+2026-10-11 08:15:34 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-10-11 08:15:34 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-10-11 08:15:34 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-10-11 08:15:34 | INFO     | LoginPage                      | CLICK -> Login button
+2026-10-11 08:15:34 | INFO     | InventoryPage                  | CLICK -> Burger menu button
+2026-10-11 08:15:35 | INFO     | InventoryPage                  | CLICK -> Logout link
+2026-10-11 08:15:45 | INFO     | LoginPage                      | ASSERTION [FAILED] -> User should be redirected to the login page after logout
+2026-10-11 08:15:45 | INFO     | ScreenshotUtils                | Screenshot captured: /home/runner/work/QA-Automation-Framework/QA-Automation-Framework/screenshots/test_logout_successfully_2026-10-11_08-15-45.png
+2026-10-11 08:15:45 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-10-11 08:15:45 | INFO     | Conftest                       | TEST END   -> test_logout_successfully | STATUS: FAILED
+2026-10-11 08:15:45 | INFO     | Conftest                       | ----------------------------------------------------------------------
