@@ -1,8 +1,0 @@
-2026-10-16 06:41:07 | INFO     | Conftest                       | ======================================================================
-2026-10-16 06:41:07 | INFO     | Conftest                       | TEST START -> test_login_data_driven[locked_out_user-secret_sauce-locked]
-2026-10-16 06:41:07 | INFO     | Conftest                       | ======================================================================
-2026-10-16 06:41:07 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True
-2026-10-16 06:41:09 | INFO     | Conftest                       | ======================================================================
-2026-10-16 06:41:09 | INFO     | Conftest                       | TEST START -> test_login_data_driven[locked_out_user-secret_sauce-locked]
-2026-10-16 06:41:09 | INFO     | Conftest                       | ======================================================================
-2026-10-16 06:41:09 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True
