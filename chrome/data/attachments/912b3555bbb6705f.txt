@@ -1,0 +1,38 @@
+2026-10-22 07:01:05 | INFO     | Conftest                       | ======================================================================
+2026-10-22 07:01:05 | INFO     | Conftest                       | TEST START -> test_missing_first_name
+2026-10-22 07:01:05 | INFO     | Conftest                       | ======================================================================
+2026-10-22 07:01:05 | INFO     | DriverFactory                  | Initializing 'chrome' driver | headless=True
+2026-10-22 07:01:05 | INFO     | DriverFactory                  | BROWSER LAUNCH -> CHROME driver initialized
+2026-10-22 07:01:05 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-10-22 07:01:06 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-10-22 07:01:06 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-10-22 07:01:06 | INFO     | LoginPage                      | CLICK -> Login button
+2026-10-22 07:01:06 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Backpack
+2026-10-22 07:01:06 | INFO     | InventoryPage                  | CLICK -> Cart icon
+2026-10-22 07:01:06 | INFO     | CartPage                       | CLICK -> Checkout button
+2026-10-22 07:01:06 | INFO     | CheckoutPage                   | TYPE -> 'Last name field' <- 'Doe'
+2026-10-22 07:01:06 | INFO     | CheckoutPage                   | TYPE -> 'Postal code field' <- '12345'
+2026-10-22 07:01:06 | INFO     | CheckoutPage                   | CLICK -> Continue button
+2026-10-22 07:01:16 | INFO     | ScreenshotUtils                | Screenshot captured: /home/runner/work/QA-Automation-Framework/QA-Automation-Framework/screenshots/test_missing_first_name_2026-10-22_07-01-16.png
+2026-10-22 07:01:16 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-10-22 07:01:16 | INFO     | Conftest                       | TEST END   -> test_missing_first_name | STATUS: FAILED
+2026-10-22 07:01:16 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-10-22 07:01:18 | INFO     | Conftest                       | ======================================================================
+2026-10-22 07:01:18 | INFO     | Conftest                       | TEST START -> test_missing_first_name
+2026-10-22 07:01:18 | INFO     | Conftest                       | ======================================================================
+2026-10-22 07:01:18 | INFO     | DriverFactory                  | Initializing 'chrome' driver | headless=True
+2026-10-22 07:01:19 | INFO     | DriverFactory                  | BROWSER LAUNCH -> CHROME driver initialized
+2026-10-22 07:01:19 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-10-22 07:01:19 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-10-22 07:01:19 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-10-22 07:01:19 | INFO     | LoginPage                      | CLICK -> Login button
+2026-10-22 07:01:19 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Backpack
+2026-10-22 07:01:19 | INFO     | InventoryPage                  | CLICK -> Cart icon
+2026-10-22 07:01:19 | INFO     | CartPage                       | CLICK -> Checkout button
+2026-10-22 07:01:19 | INFO     | CheckoutPage                   | TYPE -> 'Last name field' <- 'Doe'
+2026-10-22 07:01:19 | INFO     | CheckoutPage                   | TYPE -> 'Postal code field' <- '12345'
+2026-10-22 07:01:19 | INFO     | CheckoutPage                   | CLICK -> Continue button
+2026-10-22 07:01:30 | INFO     | ScreenshotUtils                | Screenshot captured: /home/runner/work/QA-Automation-Framework/QA-Automation-Framework/screenshots/test_missing_first_name_2026-10-22_07-01-29.png
+2026-10-22 07:01:30 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-10-22 07:01:30 | INFO     | Conftest                       | TEST END   -> test_missing_first_name | STATUS: FAILED
+2026-10-22 07:01:30 | INFO     | Conftest                       | ----------------------------------------------------------------------
