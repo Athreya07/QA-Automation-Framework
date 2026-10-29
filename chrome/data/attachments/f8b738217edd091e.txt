@@ -1,0 +1,71 @@
+2026-10-29 07:58:38 | INFO     | Conftest                       | ======================================================================
+2026-10-29 07:58:38 | INFO     | Conftest                       | TEST START -> test_missing_postal_code
+2026-10-29 07:58:38 | INFO     | Conftest                       | ======================================================================
+2026-10-29 07:58:38 | INFO     | DriverFactory                  | Initializing 'chrome' driver | headless=True
+2026-10-29 07:58:38 | INFO     | DriverFactory                  | BROWSER LAUNCH -> CHROME driver initialized
+2026-10-29 07:58:38 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-10-29 07:58:39 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-10-29 07:58:39 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-10-29 07:58:39 | INFO     | LoginPage                      | CLICK -> Login button
+2026-10-29 07:58:39 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Backpack
+2026-10-29 07:58:39 | INFO     | InventoryPage                  | CLICK -> Cart icon
+2026-10-29 07:58:39 | INFO     | CartPage                       | CLICK -> Checkout button
+2026-10-29 07:59:00 | ERROR    | WaitUtils                      | Timeout waiting for element to be VISIBLE: ('id', 'first-name')
+2026-10-29 07:59:00 | ERROR    | CheckoutPage                   | EXCEPTION -> Failed to type into element: First name field | TimeoutException: Message: 
+Stacktrace:
+#0 0x55b9b2a610da <unknown>
+#1 0x55b9b23a2a35 <unknown>
+#2 0x55b9b23e4e3f <unknown>
+#3 0x55b9b23e4fd1 <unknown>
+#4 0x55b9b2422c74 <unknown>
+#5 0x55b9b24212f3 <unknown>
+#6 0x55b9b2420c01 <unknown>
+#7 0x55b9b23dbbb7 <unknown>
+#8 0x55b9b23daece <unknown>
+#9 0x55b9b23db9a1 <unknown>
+#10 0x55b9b2a23ddc <unknown>
+#11 0x55b9b2a225e5 <unknown>
+#12 0x55b9b2a0d8d5 <unknown>
+#13 0x55b9b2a2324a <unknown>
+#14 0x55b9b29f64d9 <unknown>
+#15 0x55b9b2a4b7d8 <unknown>
+#16 0x55b9b2a4b975 <unknown>
+#17 0x55b9b2a5fa63 <unknown>
+#18 0x7f193de9cb84 <unknown>
+#19 0x7f193df29ecc <unknown>
+Traceback (most recent call last):
+  File "/home/runner/work/QA-Automation-Framework/QA-Automation-Framework/pages/base_page.py", line 70, in type_text
+    element = self.wait.wait_for_visible(locator)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/QA-Automation-Framework/QA-Automation-Framework/utilities/wait_utils.py", line 34, in wait_for_visible
+    return self.wait.until(EC.visibility_of_element_located(locator))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/selenium/webdriver/support/wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+#0 0x55b9b2a610da <unknown>
+#1 0x55b9b23a2a35 <unknown>
+#2 0x55b9b23e4e3f <unknown>
+#3 0x55b9b23e4fd1 <unknown>
+#4 0x55b9b2422c74 <unknown>
+#5 0x55b9b24212f3 <unknown>
+#6 0x55b9b2420c01 <unknown>
+#7 0x55b9b23dbbb7 <unknown>
+#8 0x55b9b23daece <unknown>
+#9 0x55b9b23db9a1 <unknown>
+#10 0x55b9b2a23ddc <unknown>
+#11 0x55b9b2a225e5 <unknown>
+#12 0x55b9b2a0d8d5 <unknown>
+#13 0x55b9b2a2324a <unknown>
+#14 0x55b9b29f64d9 <unknown>
+#15 0x55b9b2a4b7d8 <unknown>
+#16 0x55b9b2a4b975 <unknown>
+#17 0x55b9b2a5fa63 <unknown>
+#18 0x7f193de9cb84 <unknown>
+#19 0x7f193df29ecc <unknown>
+
+2026-10-29 07:59:00 | INFO     | ScreenshotUtils                | Screenshot captured: /home/runner/work/QA-Automation-Framework/QA-Automation-Framework/screenshots/test_missing_postal_code_2026-10-29_07-59-00.png
+2026-10-29 07:59:00 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-10-29 07:59:00 | INFO     | Conftest                       | TEST END   -> test_missing_postal_code | STATUS: FAILED
+2026-10-29 07:59:00 | INFO     | Conftest                       | ----------------------------------------------------------------------
