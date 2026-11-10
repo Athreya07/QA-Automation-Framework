@@ -1,0 +1,70 @@
+2026-11-10 09:07:01 | INFO     | Conftest                       | ======================================================================
+2026-11-10 09:07:01 | INFO     | Conftest                       | TEST START -> test_cart_persists_across_navigation
+2026-11-10 09:07:01 | INFO     | Conftest                       | ======================================================================
+2026-11-10 09:07:01 | INFO     | DriverFactory                  | Initializing 'chrome' driver | headless=True
+2026-11-10 09:07:02 | INFO     | DriverFactory                  | BROWSER LAUNCH -> CHROME driver initialized
+2026-11-10 09:07:02 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-11-10 09:07:02 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-11-10 09:07:02 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-11-10 09:07:03 | INFO     | LoginPage                      | CLICK -> Login button
+2026-11-10 09:07:03 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Backpack
+2026-11-10 09:07:03 | INFO     | InventoryPage                  | CLICK -> Cart icon
+2026-11-10 09:07:24 | ERROR    | WaitUtils                      | Timeout waiting for element to be CLICKABLE: ('id', 'continue-shopping')
+2026-11-10 09:07:24 | ERROR    | CartPage                       | EXCEPTION -> Failed to click element: Continue Shopping button | TimeoutException: Message: 
+Stacktrace:
+#0 0x562671e1a0aa <unknown>
+#1 0x56267174d875 <unknown>
+#2 0x56267178fc8f <unknown>
+#3 0x56267178fe21 <unknown>
+#4 0x5626717cdac4 <unknown>
+#5 0x5626717cc143 <unknown>
+#6 0x5626717cba51 <unknown>
+#7 0x562671786a07 <unknown>
+#8 0x562671785d1e <unknown>
+#9 0x5626717867f1 <unknown>
+#10 0x562671ddcc5c <unknown>
+#11 0x562671ddb475 <unknown>
+#12 0x562671dc67f8 <unknown>
+#13 0x562671ddc0ca <unknown>
+#14 0x562671daf3f9 <unknown>
+#15 0x562671e04848 <unknown>
+#16 0x562671e049e5 <unknown>
+#17 0x562671e18a43 <unknown>
+#18 0x7fddde29cb84 <unknown>
+#19 0x7fddde329ecc <unknown>
+Traceback (most recent call last):
+  File "/home/runner/work/QA-Automation-Framework/QA-Automation-Framework/pages/base_page.py", line 49, in click
+    element = self.wait.wait_for_clickable(locator)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/QA-Automation-Framework/QA-Automation-Framework/utilities/wait_utils.py", line 42, in wait_for_clickable
+    return self.wait.until(EC.element_to_be_clickable(locator))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/selenium/webdriver/support/wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+#0 0x562671e1a0aa <unknown>
+#1 0x56267174d875 <unknown>
+#2 0x56267178fc8f <unknown>
+#3 0x56267178fe21 <unknown>
+#4 0x5626717cdac4 <unknown>
+#5 0x5626717cc143 <unknown>
+#6 0x5626717cba51 <unknown>
+#7 0x562671786a07 <unknown>
+#8 0x562671785d1e <unknown>
+#9 0x5626717867f1 <unknown>
+#10 0x562671ddcc5c <unknown>
+#11 0x562671ddb475 <unknown>
+#12 0x562671dc67f8 <unknown>
+#13 0x562671ddc0ca <unknown>
+#14 0x562671daf3f9 <unknown>
+#15 0x562671e04848 <unknown>
+#16 0x562671e049e5 <unknown>
+#17 0x562671e18a43 <unknown>
+#18 0x7fddde29cb84 <unknown>
+#19 0x7fddde329ecc <unknown>
+
+2026-11-10 09:07:24 | INFO     | ScreenshotUtils                | Screenshot captured: /home/runner/work/QA-Automation-Framework/QA-Automation-Framework/screenshots/test_cart_persists_across_navigation_2026-11-10_09-07-24.png
+2026-11-10 09:07:24 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-11-10 09:07:24 | INFO     | Conftest                       | TEST END   -> test_cart_persists_across_navigation | STATUS: FAILED
+2026-11-10 09:07:24 | INFO     | Conftest                       | ----------------------------------------------------------------------
