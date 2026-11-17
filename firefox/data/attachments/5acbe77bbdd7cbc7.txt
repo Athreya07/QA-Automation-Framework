@@ -1,8 +1,0 @@
-2026-11-16 08:56:29 | INFO     | Conftest                       | ======================================================================
-2026-11-16 08:56:29 | INFO     | Conftest                       | TEST START -> test_sql_injection_input
-2026-11-16 08:56:29 | INFO     | Conftest                       | ======================================================================
-2026-11-16 08:56:29 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True
-2026-11-16 08:56:31 | INFO     | Conftest                       | ======================================================================
-2026-11-16 08:56:31 | INFO     | Conftest                       | TEST START -> test_sql_injection_input
-2026-11-16 08:56:31 | INFO     | Conftest                       | ======================================================================
-2026-11-16 08:56:31 | INFO     | DriverFactory                  | Initializing 'firefox' driver | headless=True

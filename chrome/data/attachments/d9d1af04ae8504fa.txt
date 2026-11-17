@@ -1,0 +1,90 @@
+2026-11-17 10:03:48 | INFO     | Conftest                       | ======================================================================
+2026-11-17 10:03:48 | INFO     | Conftest                       | TEST START -> test_missing_postal_code
+2026-11-17 10:03:48 | INFO     | Conftest                       | ======================================================================
+2026-11-17 10:03:48 | INFO     | DriverFactory                  | Initializing 'chrome' driver | headless=True
+2026-11-17 10:03:48 | INFO     | DriverFactory                  | BROWSER LAUNCH -> CHROME driver initialized
+2026-11-17 10:03:48 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-11-17 10:03:49 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-11-17 10:03:49 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-11-17 10:03:49 | INFO     | LoginPage                      | CLICK -> Login button
+2026-11-17 10:03:49 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Backpack
+2026-11-17 10:03:49 | INFO     | InventoryPage                  | CLICK -> Cart icon
+2026-11-17 10:03:49 | INFO     | CartPage                       | CLICK -> Checkout button
+2026-11-17 10:03:49 | INFO     | CheckoutPage                   | TYPE -> 'First name field' <- 'John'
+2026-11-17 10:03:49 | INFO     | CheckoutPage                   | TYPE -> 'Last name field' <- 'Doe'
+2026-11-17 10:03:49 | INFO     | CheckoutPage                   | CLICK -> Continue button
+2026-11-17 10:03:59 | INFO     | ScreenshotUtils                | Screenshot captured: /home/runner/work/QA-Automation-Framework/QA-Automation-Framework/screenshots/test_missing_postal_code_2026-11-17_10-03-59.png
+2026-11-17 10:03:59 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-11-17 10:03:59 | INFO     | Conftest                       | TEST END   -> test_missing_postal_code | STATUS: FAILED
+2026-11-17 10:03:59 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-11-17 10:04:01 | INFO     | Conftest                       | ======================================================================
+2026-11-17 10:04:01 | INFO     | Conftest                       | TEST START -> test_missing_postal_code
+2026-11-17 10:04:01 | INFO     | Conftest                       | ======================================================================
+2026-11-17 10:04:01 | INFO     | DriverFactory                  | Initializing 'chrome' driver | headless=True
+2026-11-17 10:04:01 | INFO     | DriverFactory                  | BROWSER LAUNCH -> CHROME driver initialized
+2026-11-17 10:04:01 | INFO     | LoginPage                      | Navigating to URL: https://www.saucedemo.com/
+2026-11-17 10:04:02 | INFO     | LoginPage                      | TYPE -> 'Username field' <- 'standard_user'
+2026-11-17 10:04:02 | INFO     | LoginPage                      | TYPE -> 'Password field' <- '****'
+2026-11-17 10:04:02 | INFO     | LoginPage                      | CLICK -> Login button
+2026-11-17 10:04:02 | INFO     | InventoryPage                  | Added product to cart: Sauce Labs Backpack
+2026-11-17 10:04:02 | INFO     | InventoryPage                  | CLICK -> Cart icon
+2026-11-17 10:04:02 | INFO     | CartPage                       | CLICK -> Checkout button
+2026-11-17 10:04:23 | ERROR    | WaitUtils                      | Timeout waiting for element to be VISIBLE: ('id', 'first-name')
+2026-11-17 10:04:23 | ERROR    | CheckoutPage                   | EXCEPTION -> Failed to type into element: First name field | TimeoutException: Message: 
+Stacktrace:
+#0 0x58b11d80bcaa <unknown>
+#1 0x58b11d13fcc5 <unknown>
+#2 0x58b11d1857df <unknown>
+#3 0x58b11d185971 <unknown>
+#4 0x58b11d1c3734 <unknown>
+#5 0x58b11d1c1db3 <unknown>
+#6 0x58b11d1c16c1 <unknown>
+#7 0x58b11d17c557 <unknown>
+#8 0x58b11d17b86e <unknown>
+#9 0x58b11d17c341 <unknown>
+#10 0x58b11d7ce79c <unknown>
+#11 0x58b11d7ccfcd <unknown>
+#12 0x58b11d7b7df5 <unknown>
+#13 0x58b11d7cdc0a <unknown>
+#14 0x58b11d7a0b99 <unknown>
+#15 0x58b11d7f6318 <unknown>
+#16 0x58b11d7f64b5 <unknown>
+#17 0x58b11d80a633 <unknown>
+#18 0x7812046abe6b <unknown>
+#19 0x78120473f55c <unknown>
+Traceback (most recent call last):
+  File "/home/runner/work/QA-Automation-Framework/QA-Automation-Framework/pages/base_page.py", line 70, in type_text
+    element = self.wait.wait_for_visible(locator)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/QA-Automation-Framework/QA-Automation-Framework/utilities/wait_utils.py", line 34, in wait_for_visible
+    return self.wait.until(EC.visibility_of_element_located(locator))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/selenium/webdriver/support/wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+#0 0x58b11d80bcaa <unknown>
+#1 0x58b11d13fcc5 <unknown>
+#2 0x58b11d1857df <unknown>
+#3 0x58b11d185971 <unknown>
+#4 0x58b11d1c3734 <unknown>
+#5 0x58b11d1c1db3 <unknown>
+#6 0x58b11d1c16c1 <unknown>
+#7 0x58b11d17c557 <unknown>
+#8 0x58b11d17b86e <unknown>
+#9 0x58b11d17c341 <unknown>
+#10 0x58b11d7ce79c <unknown>
+#11 0x58b11d7ccfcd <unknown>
+#12 0x58b11d7b7df5 <unknown>
+#13 0x58b11d7cdc0a <unknown>
+#14 0x58b11d7a0b99 <unknown>
+#15 0x58b11d7f6318 <unknown>
+#16 0x58b11d7f64b5 <unknown>
+#17 0x58b11d80a633 <unknown>
+#18 0x7812046abe6b <unknown>
+#19 0x78120473f55c <unknown>
+
+2026-11-17 10:04:23 | INFO     | ScreenshotUtils                | Screenshot captured: /home/runner/work/QA-Automation-Framework/QA-Automation-Framework/screenshots/test_missing_postal_code_2026-11-17_10-04-23.png
+2026-11-17 10:04:23 | INFO     | Conftest                       | ----------------------------------------------------------------------
+2026-11-17 10:04:23 | INFO     | Conftest                       | TEST END   -> test_missing_postal_code | STATUS: FAILED
+2026-11-17 10:04:23 | INFO     | Conftest                       | ----------------------------------------------------------------------
